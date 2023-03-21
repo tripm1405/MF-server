@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\Uploads\Logos\1.png" />
+      <None Include="wwwroot\Uploads\Logos\1_BG.png" />
+      <None Include="wwwroot\Uploads\Logos\1_small.png" />
+      <None Include="wwwroot\Uploads\Logos\1_small_BG.png" />
+      <None Include="wwwroot\Uploads\Logos\1_white.png" />
+      <None Include="wwwroot\Uploads\Logos\2.png" />
+      <None Include="wwwroot\Uploads\Logos\2_small_BG.png" />
+      <None Include="wwwroot\Uploads\Products\1.png" />
+      <None Include="wwwroot\Uploads\Products\2.png" />
+      <None Include="wwwroot\Uploads\Products\3.png" />
+      <None Include="wwwroot\Uploads\Products\4.png" />
+      <None Include="wwwroot\Uploads\Products\5.png" />
+      <None Include="wwwroot\Uploads\Products\6.png" />
+      <None Include="wwwroot\Uploads\Products\7.png" />
+      <None Include="wwwroot\Uploads\Products\8.png" />
+      <None Include="wwwroot\Uploads\SlideShows\1.png" />
+      <None Include="wwwroot\Uploads\SlideShows\2.png" />
+      <None Include="wwwroot\Uploads\SlideShows\3.png" />
+      <None Include="wwwroot\Uploads\SlideShows\4.png" />
+      <None Include="wwwroot\Uploads\SlideShows\slide_1_img.png" />
+      <None Include="wwwroot\Uploads\SlideShows\slide_2_mb.png" />
+      <None Include="wwwroot\Uploads\SlideShows\slide_3_mb.png" />
+      <None Include="wwwroot\Uploads\SlideShows\slide_4_img.png" />
+    </ItemGroup>
+
+</Project>
