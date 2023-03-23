@@ -15,14 +15,14 @@ public class ProductRepository
 
     public async Task<List<ProductsWithImageSrcDto>> GetProductsAsync()
     {
-        var model = from product in _dbContext.Products
+        var data = from product in _dbContext.Products
                     join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
                     select new ProductsWithImageSrcDto ()
                     {
                         Id = product.Id,
                         Name = product.Name,
                         Description = product.Description,
-                        Image = "https://localhost:7114" + "/Uploads/Products/" + productImage.Link,
+                        Image = product.Image,
                         Type = product.Type,
                         Catalog = product.Catalog,
                         Price = product.Price,
@@ -32,34 +32,36 @@ public class ProductRepository
                         Meta = product.Meta,
                         Active = product.Active,
                         Order = product.Order,
-                        CreateAt = product.CreateAt
+                        CreateAt = product.CreateAt,
+                        SrcImg = "https://localhost:7114/" + "/Uploads/Products/" + productImage.Link
                     };
 
 
-        return model.ToList();
+        return await data.AsQueryable().AsNoTracking().ToListAsync();
     }
 
     public async Task<List<ProductsWithImageSrcDto>> GetProductsWithBodyAsync(ProductDto body)
     {
         var data = from product in _dbContext.Products
                                    join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
-                                   select new ProductsWithImageSrcDto()
-                                   {
-                                       Id = product.Id,
-                                       Name = product.Name,
-                                       Description = product.Description,
-                                       Image = productImage.Link,
-                                       Type = product.Type,
-                                       Catalog = product.Catalog,
-                                       Price = product.Price,
-                                       Discount = product.Discount,
-                                       Amount = product.Amount,
-                                       Sale = product.Sale,
-                                       Meta = product.Meta,
-                                       Active = product.Active,
-                                       Order = product.Order,
-                                       CreateAt = product.CreateAt
-                                   };
+                   select new ProductsWithImageSrcDto()
+                   {
+                       Id = product.Id,
+                       Name = product.Name,
+                       Description = product.Description,
+                       Image = product.Image,
+                       Type = product.Type,
+                       Catalog = product.Catalog,
+                       Price = product.Price,
+                       Discount = product.Discount,
+                       Amount = product.Amount,
+                       Sale = product.Sale,
+                       Meta = product.Meta,
+                       Active = product.Active,
+                       Order = product.Order,
+                       CreateAt = product.CreateAt,
+                       SrcImg = "https://localhost:7114" + "/Uploads/Products/" + productImage.Link
+                   };
 
         if (body.Type != null)
         {
@@ -69,6 +71,10 @@ public class ProductRepository
         if (body.Catalog != null)
         {
             data = data.Where(product => product.Catalog == body.Catalog);
+        }
+
+        if (body.Take != null) {
+            data = data.Take((int) body.Take);
         }
 
         return await data.AsQueryable().AsNoTracking().ToListAsync();

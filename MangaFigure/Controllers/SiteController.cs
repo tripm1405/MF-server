@@ -43,6 +43,14 @@ public class SiteController : ControllerBase
         var authors = await _siteRepository.GetHeaderAsync();
         return Ok(authors);
     }
+
+    [HttpPost("header")]
+    public async Task<IActionResult> GetHeaderWithBodyAsync([FromBody] HeaderDto body)
+    {
+        var data = await _siteRepository.GetHeaderWithBodyAsync(body);
+        return Ok(data);
+    }
+
     [HttpPost("header/create")]
     public async Task<IActionResult> AddNewHeaderAsync([FromBody] HeaderDto headerModel)
     {

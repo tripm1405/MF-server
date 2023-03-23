@@ -16,4 +16,5 @@ public class ProductDto
     public bool? Active { get; set; }
     public int? Order { get; set; }
     public DateTime? CreateAt { get; set; }
+    public int? Take { get; set; }
 }
