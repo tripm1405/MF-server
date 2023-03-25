@@ -90,7 +90,7 @@ public class ProductRepository
                        Active = product.Active,
                        Order = product.Order,
                        CreateAt = product.CreateAt,
-                       SrcImg = "https://localhost:7114" + "/Uploads/Products/" + productImage.Link
+                       SrcImg = Config.SRC_PRODUCTS + productImage.Link
                    };
 
         if (body.Type != null)
@@ -131,7 +131,7 @@ public class ProductRepository
                        Active = product.Active,
                        Order = product.Order,
                        CreateAt = product.CreateAt,
-                       SrcImg = "https://localhost:7114" + "/Uploads/Products/" + productImage.Link
+                       SrcImg = Config.SRC_PRODUCTS + productImage.Link
                    };
 
         return await data.AsQueryable().AsNoTracking().FirstOrDefaultAsync();

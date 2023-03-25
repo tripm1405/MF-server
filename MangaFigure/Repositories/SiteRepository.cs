@@ -86,7 +86,7 @@ public class SiteRepository
                    select new HeaderDto() 
                    { 
                         Description = header.Description,
-                        Logo = "https://localhost:7114/" + "Uploads/Logos/" + header.Logo,
+                        Logo = Config.SRC_LOGOS + header.Logo,
                         Meta = header.Meta,
                         Active = header.Active,
                         Order = header.Order,
