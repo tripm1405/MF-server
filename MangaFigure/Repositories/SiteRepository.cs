@@ -82,6 +82,7 @@ public class SiteRepository
     public async Task<List<HeaderDto>> GetHeaderWithBodyAsync(HeaderDto body)
     {
         IQueryable<HeaderDto> data = from header in _dbContext.Headers
+                                     orderby header.CreateAt descending
                    select new HeaderDto() 
                    { 
                         Description = header.Description,
@@ -162,6 +163,7 @@ public class SiteRepository
         var data = await _dbContext.SlideShows.AsQueryable().AsNoTracking().ToListAsync();
         return data;
     }
+
     public async Task<SlideShow> AddSlideShowAsync(SlideShowDto slideShowModel)
     {
         var newSlideShow = new SlideShow()
