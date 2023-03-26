@@ -85,7 +85,7 @@ public class ProductRepository
                        Active = product.Active,
                        Order = product.Order,
                        CreateAt = product.CreateAt,
-                       SrcImg = Config.SRC_PRODUCTS + productImage.Link
+                       SrcImg = Config.OUT_PRODUCTS + productImage.Link
                    };
 
         if (body.Type != null)
@@ -126,7 +126,7 @@ public class ProductRepository
                        Active = product.Active,
                        Order = product.Order,
                        CreateAt = product.CreateAt,
-                       SrcImg = Config.SRC_PRODUCTS + productImage.Link
+                       SrcImg = Config.OUT_PRODUCTS + productImage.Link
                    };
 
         return await data.AsQueryable().AsNoTracking().FirstOrDefaultAsync();
