@@ -14,6 +14,11 @@ public class ProductRepository
         _dbContext = dbContext;
     }
 
+    public class fileUploadAPI
+    {
+        public IFormFile files { get; set; }
+    }
+
     public async Task<Product> AddProductAsync(ProductDto Product)
     {
         var newProduct = new Product()
