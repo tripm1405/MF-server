@@ -2234,11 +2234,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj",
       "projectName": "MangaFigure",
       "projectPath": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj",
       "packagesPath": "C:\\Users\\CarrotDay\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\obj\\",
+=======
+      "projectUniqueName": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\MangaFigure.csproj",
+      "projectName": "MangaFigure",
+      "projectPath": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\MangaFigure.csproj",
+      "packagesPath": "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\",
+      "outputPath": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\obj\\",
+>>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CarrotDay\\AppData\\Roaming\\NuGet\\NuGet.Config",

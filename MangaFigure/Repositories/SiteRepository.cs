@@ -78,6 +78,32 @@ public class SiteRepository
         var data = await _dbContext.Headers.AsQueryable().AsNoTracking().ToListAsync();
         return data;
     }
+
+    public async Task<List<HeaderDto>> GetHeaderWithBodyAsync(HeaderDto body)
+    {
+        IQueryable<HeaderDto> data = from header in _dbContext.Headers
+                                     orderby header.CreateAt descending
+                   select new HeaderDto() 
+                   { 
+                        Description = header.Description,
+                        Logo = Config.OUT_LOGOS + header.Logo,
+                        Meta = header.Meta,
+                        Active = header.Active,
+                        Order = header.Order,
+                        CreateAt = header.CreateAt
+                   };
+
+        if (body.Newest != null)
+        {
+            if ((bool) body.Newest)
+            {
+                data = data.Take(1);
+            }
+        }
+
+        return await data.AsQueryable().AsNoTracking().ToListAsync();
+    } 
+
     public async Task<Header> AddHeaderAsync(HeaderDto headerModel)
     {
         var newHeader = new Header()
@@ -137,6 +163,7 @@ public class SiteRepository
         var data = await _dbContext.SlideShows.AsQueryable().AsNoTracking().ToListAsync();
         return data;
     }
+
     public async Task<SlideShow> AddSlideShowAsync(SlideShowDto slideShowModel)
     {
         var newSlideShow = new SlideShow()

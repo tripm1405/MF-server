@@ -1,6 +1,8 @@
 using MangaFigure.DTOs;
 using MangaFigure.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Reflection.PortableExecutable;
 
 namespace MangaFigure.Repositories;
 
@@ -13,16 +15,44 @@ public class ProductRepository
         _dbContext = dbContext;
     }
 
+    public class fileUploadAPI
+    {
+        public IFormFile files { get; set; }
+    }
+
+    public async Task<Product> AddProductAsync(ProductDto Product)
+    {
+        var newProduct = new Product()
+        {
+            Name = Product.Name,
+            Description = Product.Description,
+            Image = Product.Image,
+            Type = Product.Type,
+            Catalog = Product.Catalog,
+            Price = Product.Price,
+            Discount = Product.Discount,
+            Amount = Product.Amount,
+            Sale = Product.Sale,
+            Meta = Product.Meta,
+            Active = Product.Active,
+            Order = Product.Order,
+            CreateAt = Product.CreateAt
+        };
+        await _dbContext.Products.AddAsync(newProduct);
+        await _dbContext.SaveChangesAsync();
+        return newProduct;
+    }
+
     public async Task<List<ProductsWithImageSrcDto>> GetProductsAsync()
     {
-        var model = from product in _dbContext.Products
-                    join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
-                    select new ProductsWithImageSrcDto ()
+        var data = from product in _dbContext.Products
+                   join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
+                   select new ProductsWithImageSrcDto ()
                     {
                         Id = product.Id,
                         Name = product.Name,
                         Description = product.Description,
-                        Image = "https://localhost:7114" + "/Uploads/Products/" + productImage.Link,
+                        Image = product.Image,
                         Type = product.Type,
                         Catalog = product.Catalog,
                         Price = product.Price,
@@ -32,34 +62,37 @@ public class ProductRepository
                         Meta = product.Meta,
                         Active = product.Active,
                         Order = product.Order,
-                        CreateAt = product.CreateAt
+                        CreateAt = product.CreateAt,
+                        SrcImg = "https://localhost:7114/" + "/Uploads/Products/" + productImage.Link
                     };
 
 
-        return model.ToList();
+        return await data.AsQueryable().AsNoTracking().ToListAsync();
     }
 
-    public async Task<List<ProductsWithImageSrcDto>> GetProductsWithBodyAsync(ProductDto body)
+    public async Task<List<ProductsWithImageSrcDto>> GetProductsWithBodyAsync(ProductBodyDto body)
     {
         var data = from product in _dbContext.Products
-                                   join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
-                                   select new ProductsWithImageSrcDto()
-                                   {
-                                       Id = product.Id,
-                                       Name = product.Name,
-                                       Description = product.Description,
-                                       Image = productImage.Link,
-                                       Type = product.Type,
-                                       Catalog = product.Catalog,
-                                       Price = product.Price,
-                                       Discount = product.Discount,
-                                       Amount = product.Amount,
-                                       Sale = product.Sale,
-                                       Meta = product.Meta,
-                                       Active = product.Active,
-                                       Order = product.Order,
-                                       CreateAt = product.CreateAt
-                                   };
+                   join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
+                   orderby product.Id descending
+                   select new ProductsWithImageSrcDto()
+                   {
+                       Id = product.Id,
+                       Name = product.Name,
+                       Description = product.Description,
+                       Image = product.Image,
+                       Type = product.Type,
+                       Catalog = product.Catalog,
+                       Price = product.Price,
+                       Discount = product.Discount,
+                       Amount = product.Amount,
+                       Sale = product.Sale,
+                       Meta = product.Meta,
+                       Active = product.Active,
+                       Order = product.Order,
+                       CreateAt = product.CreateAt,
+                       SrcImg = Config.OUT_PRODUCTS + productImage.Link
+                   };
 
         if (body.Type != null)
         {
@@ -71,6 +104,80 @@ public class ProductRepository
             data = data.Where(product => product.Catalog == body.Catalog);
         }
 
+        if (body.Take != null) {
+            data = data.Take((int) body.Take);
+        }
+
         return await data.AsQueryable().AsNoTracking().ToListAsync();
     }
+
+    public async Task<ProductsWithImageSrcDto> GetProductAsync(string meta)
+    {
+        var data = from product in _dbContext.Products
+                   join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
+                   where product.Meta == meta
+                   select new ProductsWithImageSrcDto()
+                   {
+                       Id = product.Id,
+                       Name = product.Name,
+                       Description = product.Description,
+                       Image = product.Image,
+                       Type = product.Type,
+                       Catalog = product.Catalog,
+                       Price = product.Price,
+                       Discount = product.Discount,
+                       Amount = product.Amount,
+                       Sale = product.Sale,
+                       Meta = product.Meta,
+                       Active = product.Active,
+                       Order = product.Order,
+                       CreateAt = product.CreateAt,
+                       SrcImg = Config.OUT_PRODUCTS + productImage.Link
+                   };
+
+        return await data.AsQueryable().AsNoTracking().FirstOrDefaultAsync();
+    }
+
+    public async Task<ProductPageData> GetProductPageAsync(ProductPageBodyDto body)
+    {
+        int page = (int)(body.Page != null && (int)body.Page > 0? body.Page : 1);
+        int pageSize = (int)(body.PageSize != null && (int)body.PageSize > 0 ? body.PageSize : 10);
+        
+        return new ProductPageData()
+        {
+            Products = await (from product in _dbContext.Products
+                              join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
+                              orderby product.Id descending
+                              select new ProductsWithImageSrcDto()
+                              {
+                                  Id = product.Id,
+                                  Name = product.Name,
+                                  Description = product.Description,
+                                  Image = product.Image,
+                                  Type = product.Type,
+                                  Catalog = product.Catalog,
+                                  Price = product.Price,
+                                  Discount = product.Discount,
+                                  Amount = product.Amount,
+                                  Sale = product.Sale,
+                                  Meta = product.Meta,
+                                  Active = product.Active,
+                                  Order = product.Order,
+                                  CreateAt = product.CreateAt,
+                                  SrcImg = Config.OUT_PRODUCTS + productImage.Link
+                              })
+                      .Skip((page - 1) * pageSize)
+                      .Take(pageSize)
+                      .AsQueryable()
+                      .AsNoTracking()
+                      .ToListAsync(),
+            Pages = ((from product in _dbContext.Products select product).Count() / pageSize) + 1
+        };
+    }
+}
+
+public class ProductPageData
+{
+    public List<ProductsWithImageSrcDto>? Products { get; set; }
+    public int? Pages { get; set; }
 }

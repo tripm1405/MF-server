@@ -24,6 +24,17 @@ public class ProductImageController : ControllerBase
         return Ok(authors);
     }
 
+    [HttpPost("upload")]
+    public async Task<IActionResult> Upload(IFormFile file)
+    {
+        if (file == null || file.Length == 0)
+            return BadRequest("No file selected.");
+
+        var filePath = await _productImageRepository.UploadFileAsync(file);
+
+        return Ok(new { file = filePath });
+    }
+
     [HttpPost("create")]
     public async Task<IActionResult> AddNewProductImageAsync([FromBody] ProductImageDto productImageModel)
     {

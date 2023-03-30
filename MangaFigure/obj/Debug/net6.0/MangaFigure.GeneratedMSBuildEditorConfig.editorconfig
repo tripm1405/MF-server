@@ -8,9 +8,17 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MangaFigure
 build_property.RootNamespace = MangaFigure
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure
+=======
+build_property.ProjectDir = D:\TDTU\subject\00-dot-net-technology\MF\MF-backend\MangaFigure\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\TDTU\subject\00-dot-net-technology\MF\MF-backend\MangaFigure
+>>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
 build_property._RazorSourceGeneratorDebug = 

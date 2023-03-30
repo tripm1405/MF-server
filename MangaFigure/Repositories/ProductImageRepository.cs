@@ -20,6 +20,17 @@ public class ProductImageRepository
         return data;
     }
 
+    public async Task<string> UploadFileAsync(IFormFile file)
+    {
+        var filePath = Path.Combine(Config.IN_PRODUCTS, file.FileName);
+
+        using (var stream = new FileStream(filePath, FileMode.Create))
+        {
+            await file.CopyToAsync(stream);
+        }
+        return filePath;
+    }
+
     public async Task<ProductImage> AddProductImageAsync(ProductImageDto productImageModel)
     {
         var newProductImage = new ProductImage()
