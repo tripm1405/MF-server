@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TDTU\\subject\\00-dot-net-technology\\api\\MangaFigure\\MangaFigure.csproj": {}
+    "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj": {}
   },
   "projects": {
-    "D:\\TDTU\\subject\\00-dot-net-technology\\api\\MangaFigure\\MangaFigure.csproj": {
+    "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TDTU\\subject\\00-dot-net-technology\\api\\MangaFigure\\MangaFigure.csproj",
+        "projectUniqueName": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj",
         "projectName": "MangaFigure",
-        "projectPath": "D:\\TDTU\\subject\\00-dot-net-technology\\api\\MangaFigure\\MangaFigure.csproj",
-        "packagesPath": "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\",
-        "outputPath": "D:\\TDTU\\subject\\00-dot-net-technology\\api\\MangaFigure\\obj\\",
+        "projectPath": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj",
+        "packagesPath": "C:\\Users\\CarrotDay\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\KROTOHMAKI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\CarrotDay\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
