@@ -1,6 +1,7 @@
 using MangaFigure.DTOs;
 using MangaFigure.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 using System.Reflection.PortableExecutable;
 
 namespace MangaFigure.Repositories;
@@ -69,7 +70,7 @@ public class ProductRepository
         return await data.AsQueryable().AsNoTracking().ToListAsync();
     }
 
-    public async Task<List<ProductsWithImageSrcDto>> GetProductsWithBodyAsync(ProductDto body)
+    public async Task<List<ProductsWithImageSrcDto>> GetProductsWithBodyAsync(ProductBodyDto body)
     {
         var data = from product in _dbContext.Products
                    join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
@@ -136,4 +137,47 @@ public class ProductRepository
 
         return await data.AsQueryable().AsNoTracking().FirstOrDefaultAsync();
     }
+
+    public async Task<ProductPageData> GetProductPageAsync(ProductPageBodyDto body)
+    {
+        int page = (int)(body.Page != null && (int)body.Page > 0? body.Page : 1);
+        int pageSize = (int)(body.PageSize != null && (int)body.PageSize > 0 ? body.PageSize : 10);
+        
+        return new ProductPageData()
+        {
+            Products = await (from product in _dbContext.Products
+                              join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
+                              orderby product.Id descending
+                              select new ProductsWithImageSrcDto()
+                              {
+                                  Id = product.Id,
+                                  Name = product.Name,
+                                  Description = product.Description,
+                                  Image = product.Image,
+                                  Type = product.Type,
+                                  Catalog = product.Catalog,
+                                  Price = product.Price,
+                                  Discount = product.Discount,
+                                  Amount = product.Amount,
+                                  Sale = product.Sale,
+                                  Meta = product.Meta,
+                                  Active = product.Active,
+                                  Order = product.Order,
+                                  CreateAt = product.CreateAt,
+                                  SrcImg = Config.OUT_PRODUCTS + productImage.Link
+                              })
+                      .Skip((page - 1) * pageSize)
+                      .Take(pageSize)
+                      .AsQueryable()
+                      .AsNoTracking()
+                      .ToListAsync(),
+            Pages = ((from product in _dbContext.Products select product).Count() / pageSize) + 1
+        };
+    }
+}
+
+public class ProductPageData
+{
+    public List<ProductsWithImageSrcDto>? Products { get; set; }
+    public int? Pages { get; set; }
 }

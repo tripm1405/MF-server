@@ -8,7 +8,6 @@ namespace MangaFigure.Repositories;
 public class ProductImageRepository
 {
     private readonly MangaFigureContext _dbContext;
-    private readonly string _imagePath;
 
     public ProductImageRepository(MangaFigureContext dbContext)
     {
@@ -23,13 +22,10 @@ public class ProductImageRepository
 
     public async Task<string> UploadFileAsync(IFormFile file)
     {
-        var filePath = Path.Combine("D:\\Giang\\dotnet-core\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\", file.FileName);
-
-        System.Diagnostics.Debug.WriteLine(filePath);
+        var filePath = Path.Combine(Config.IN_PRODUCTS, file.FileName);
 
         using (var stream = new FileStream(filePath, FileMode.Create))
         {
-            System.Diagnostics.Debug.WriteLine("helu");
             await file.CopyToAsync(stream);
         }
         return filePath;

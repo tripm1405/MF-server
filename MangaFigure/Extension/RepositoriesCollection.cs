@@ -21,6 +21,7 @@ public static class RepositoriesCollection
         serviceCollection.AddTransient<TransactionDetailRepository, TransactionDetailRepository>();
         serviceCollection.AddTransient<TransactionStatusRepository, TransactionStatusRepository>();
         serviceCollection.AddTransient<VoucherRepository, VoucherRepository>();
+        serviceCollection.AddTransient<FileRepository, FileRepository>();
         serviceCollection.AddTransient<TestRepository, TestRepository>();
     }
 }

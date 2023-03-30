@@ -25,9 +25,16 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost("")]
-    public async Task<IActionResult> GetProducts([FromBody] ProductDto body)
+    public async Task<IActionResult> GetProducts([FromBody] ProductBodyDto body)
     {
         var data = await _productRepository.GetProductsWithBodyAsync(body);
+        return Ok(data);
+    }
+
+    [HttpPost("page")]
+    public async Task<IActionResult> GetProductPage([FromBody] ProductPageBodyDto body)
+    {
+        var data = await _productRepository.GetProductPageAsync(body);
         return Ok(data);
     }
 
