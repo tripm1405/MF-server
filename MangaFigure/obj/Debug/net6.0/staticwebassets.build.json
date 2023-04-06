@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "Hash": "K/k/uISPXsYZsiJIfu8Ln7Wq53iI1B0xjZFhMmmJLTU=",
-=======
-  "Hash": "86dyOFiD0iBdM9tW6gsWrbV3AnkhZ5EY7PhzRzqO3Es=",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
   "Source": "MangaFigure",
   "BasePath": "_content/MangaFigure",
   "Mode": "Default",
@@ -14,45 +10,17 @@
     {
       "Name": "MangaFigure\\wwwroot",
       "Source": "MangaFigure",
-<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Logos\\1_BG.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Logos\\1.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
-      "BasePath": "_content/MangaFigure",
-      "RelativePath": "Uploads/Logos/1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\Logos\\1.png"
-    },
-    {
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Logos\\1_BG.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Logos/1_BG.png",
       "AssetKind": "All",
@@ -66,34 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Logos\\1_BG.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Logos\\1_small_BG.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Logos\\1_small.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
-      "BasePath": "_content/MangaFigure",
-      "RelativePath": "Uploads/Logos/1_small.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Uploads\\Logos\\1_small.png"
-    },
-    {
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Logos\\1_small_BG.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Logos/1_small_BG.png",
       "AssetKind": "All",
@@ -107,7 +51,6 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Logos\\1_small_BG.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Logos\\1_small.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
@@ -129,12 +72,6 @@
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Logos\\1_white.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Logos/1_white.png",
       "AssetKind": "All",
@@ -148,17 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Logos\\1_white.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Logos\\1.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Logos\\2.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Logos/1.png",
       "AssetKind": "All",
@@ -172,17 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Logos\\1.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Logos\\2_small_BG.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Logos\\2_small_BG.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Logos/2_small_BG.png",
       "AssetKind": "All",
@@ -196,7 +119,6 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Logos\\2_small_BG.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Logos\\2.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
@@ -218,12 +140,6 @@
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\1.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/1.png",
       "AssetKind": "All",
@@ -237,17 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\1.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\2.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\2.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/2.png",
       "AssetKind": "All",
@@ -261,17 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\2.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\3.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\3.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/3.png",
       "AssetKind": "All",
@@ -285,17 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\3.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\4.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\4.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/4.png",
       "AssetKind": "All",
@@ -309,17 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\4.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\5.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\5.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/5.png",
       "AssetKind": "All",
@@ -333,17 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\5.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\6.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\6.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/6.png",
       "AssetKind": "All",
@@ -357,17 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\6.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\7.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\7.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/7.png",
       "AssetKind": "All",
@@ -381,17 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\7.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\8.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\8.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/8.png",
       "AssetKind": "All",
@@ -405,17 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\8.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action1.jpg",
       "AssetKind": "All",
@@ -429,17 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action10.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action10.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action10.jpg",
       "AssetKind": "All",
@@ -453,17 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action10.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action11.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action11.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action11.jpg",
       "AssetKind": "All",
@@ -477,17 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action11.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action12.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action12.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action12.jpg",
       "AssetKind": "All",
@@ -501,17 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action12.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action13.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action13.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action13.jpg",
       "AssetKind": "All",
@@ -525,17 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action13.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action14.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action14.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action14.jpg",
       "AssetKind": "All",
@@ -549,17 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action14.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action15.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action15.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action15.jpg",
       "AssetKind": "All",
@@ -573,17 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action15.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action16.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action16.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action16.jpg",
       "AssetKind": "All",
@@ -597,17 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action16.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action17.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action17.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action17.jpg",
       "AssetKind": "All",
@@ -621,17 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action17.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action18.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action18.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action18.jpg",
       "AssetKind": "All",
@@ -645,17 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action18.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action19.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action19.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action19.jpg",
       "AssetKind": "All",
@@ -669,17 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action19.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action2.jpg",
       "AssetKind": "All",
@@ -693,17 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action20.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action20.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action20.jpg",
       "AssetKind": "All",
@@ -717,17 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action20.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action21.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action21.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action21.jpg",
       "AssetKind": "All",
@@ -741,17 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action21.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action22.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action22.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action22.jpg",
       "AssetKind": "All",
@@ -765,17 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action22.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action23.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action23.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action23.jpg",
       "AssetKind": "All",
@@ -789,17 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action23.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action24.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action24.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action24.jpg",
       "AssetKind": "All",
@@ -813,17 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action24.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action25.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action25.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action25.jpg",
       "AssetKind": "All",
@@ -837,17 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action25.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action3.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action3.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action3.jpg",
       "AssetKind": "All",
@@ -861,17 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action3.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action4.jpg",
       "AssetKind": "All",
@@ -885,17 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action5.jpg",
       "AssetKind": "All",
@@ -909,17 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action6.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action6.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action6.jpg",
       "AssetKind": "All",
@@ -933,17 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action6.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action7.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action7.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action7.jpg",
       "AssetKind": "All",
@@ -957,17 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action7.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action8.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action8.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action8.jpg",
       "AssetKind": "All",
@@ -981,17 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action8.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\action9.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\action9.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/action9.jpg",
       "AssetKind": "All",
@@ -1005,17 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\action9.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall0.jfif",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall0.jfif",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall0.jfif",
       "AssetKind": "All",
@@ -1029,17 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall0.jfif"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall1.jpg",
       "AssetKind": "All",
@@ -1053,17 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall10.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall10.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall10.jpg",
       "AssetKind": "All",
@@ -1077,17 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall10.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall11.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall11.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall11.jpg",
       "AssetKind": "All",
@@ -1101,17 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall11.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall12.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall12.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall12.jpg",
       "AssetKind": "All",
@@ -1125,17 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall12.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall13.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall13.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall13.jpg",
       "AssetKind": "All",
@@ -1149,17 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall13.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall14.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall14.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall14.jpg",
       "AssetKind": "All",
@@ -1173,17 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall14.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall15.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall15.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall15.jpg",
       "AssetKind": "All",
@@ -1197,17 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall15.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall16.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall16.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall16.jpg",
       "AssetKind": "All",
@@ -1221,17 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall16.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall17.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall17.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall17.jpg",
       "AssetKind": "All",
@@ -1245,17 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall17.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall18.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall18.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall18.jpg",
       "AssetKind": "All",
@@ -1269,17 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall18.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall19.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall19.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall19.jpg",
       "AssetKind": "All",
@@ -1293,17 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall19.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall2.jpg",
       "AssetKind": "All",
@@ -1317,17 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall20.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall20.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall20.jpg",
       "AssetKind": "All",
@@ -1341,17 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall20.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall21.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall21.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall21.jpg",
       "AssetKind": "All",
@@ -1365,17 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall21.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall22.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall22.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall22.jpg",
       "AssetKind": "All",
@@ -1389,17 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall22.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall23.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall23.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall23.jpg",
       "AssetKind": "All",
@@ -1413,17 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall23.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall24.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall24.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall24.jpg",
       "AssetKind": "All",
@@ -1437,17 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall24.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall25.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall25.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall25.jpg",
       "AssetKind": "All",
@@ -1461,17 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall25.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall26.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall26.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall26.jpg",
       "AssetKind": "All",
@@ -1485,17 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall26.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall27.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall27.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall27.jpg",
       "AssetKind": "All",
@@ -1509,17 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall27.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall28.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall28.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall28.jpg",
       "AssetKind": "All",
@@ -1533,17 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall28.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall29.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall29.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall29.jpg",
       "AssetKind": "All",
@@ -1557,17 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall29.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall3.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall3.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall3.jpg",
       "AssetKind": "All",
@@ -1581,17 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall3.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall30.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall30.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall30.jpg",
       "AssetKind": "All",
@@ -1605,17 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall30.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall31.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall31.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall31.jpg",
       "AssetKind": "All",
@@ -1629,17 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall31.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall32.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall32.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall32.jpg",
       "AssetKind": "All",
@@ -1653,17 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall32.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall33.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall33.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall33.jpg",
       "AssetKind": "All",
@@ -1677,17 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall33.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall34.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall34.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall34.jpg",
       "AssetKind": "All",
@@ -1701,17 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall34.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonball35.jfif",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonball35.jfif",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonball35.jfif",
       "AssetKind": "All",
@@ -1725,17 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonball35.jfif"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall4.jpg",
       "AssetKind": "All",
@@ -1749,17 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall5.jpg",
       "AssetKind": "All",
@@ -1773,17 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall6.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall6.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall6.jpg",
       "AssetKind": "All",
@@ -1797,17 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall6.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall7.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall7.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall7.jpg",
       "AssetKind": "All",
@@ -1821,17 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall7.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall8.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall8.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall8.jpg",
       "AssetKind": "All",
@@ -1845,17 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall8.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall9.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\dragonBall9.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/dragonBall9.jpg",
       "AssetKind": "All",
@@ -1869,17 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\dragonBall9.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama1.jpg",
       "AssetKind": "All",
@@ -1893,17 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama10.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama10.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama10.jpg",
       "AssetKind": "All",
@@ -1917,17 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama10.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama11.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama11.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama11.jpg",
       "AssetKind": "All",
@@ -1941,17 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama11.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama12.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama12.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama12.jpg",
       "AssetKind": "All",
@@ -1965,17 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama12.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama13.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama13.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama13.jpg",
       "AssetKind": "All",
@@ -1989,17 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama13.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama14.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama14.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama14.jpg",
       "AssetKind": "All",
@@ -2013,17 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama14.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama15.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama15.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama15.jpg",
       "AssetKind": "All",
@@ -2037,17 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama15.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama16.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama16.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama16.jpg",
       "AssetKind": "All",
@@ -2061,17 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama16.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama17.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama17.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama17.jpg",
       "AssetKind": "All",
@@ -2085,17 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama17.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama18.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama18.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama18.jpg",
       "AssetKind": "All",
@@ -2109,17 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama18.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama19.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama19.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama19.jpg",
       "AssetKind": "All",
@@ -2133,17 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama19.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama2.jpg",
       "AssetKind": "All",
@@ -2157,17 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama20.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama20.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama20.jpg",
       "AssetKind": "All",
@@ -2181,17 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama20.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama21.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama21.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama21.jpg",
       "AssetKind": "All",
@@ -2205,17 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama21.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama22.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama22.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama22.jpg",
       "AssetKind": "All",
@@ -2229,17 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama22.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama23.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama23.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama23.jpg",
       "AssetKind": "All",
@@ -2253,17 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama23.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama24.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama24.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama24.jpg",
       "AssetKind": "All",
@@ -2277,17 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama24.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama25.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama25.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama25.jpg",
       "AssetKind": "All",
@@ -2301,17 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama25.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama26.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama26.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama26.jpg",
       "AssetKind": "All",
@@ -2325,17 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama26.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama3.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama3.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama3.jpg",
       "AssetKind": "All",
@@ -2349,17 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama3.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama4.jpg",
       "AssetKind": "All",
@@ -2373,17 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama5.jpg",
       "AssetKind": "All",
@@ -2397,17 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama6.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama6.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama6.jpg",
       "AssetKind": "All",
@@ -2421,17 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama6.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama7.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama7.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama7.jpg",
       "AssetKind": "All",
@@ -2445,17 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama7.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama8.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama8.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama8.jpg",
       "AssetKind": "All",
@@ -2469,17 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama8.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\drama9.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\drama9.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/drama9.jpg",
       "AssetKind": "All",
@@ -2493,17 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\drama9.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\fantasy1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\fantasy1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/fantasy1.jpg",
       "AssetKind": "All",
@@ -2517,17 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\fantasy1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\manga1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\manga1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/manga1.jpg",
       "AssetKind": "All",
@@ -2541,17 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\manga1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\manga2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\manga2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/manga2.jpg",
       "AssetKind": "All",
@@ -2565,17 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\manga2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\manga3.jfif",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\manga3.jfif",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/manga3.jfif",
       "AssetKind": "All",
@@ -2589,17 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\manga3.jfif"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\manga4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\manga4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/manga4.jpg",
       "AssetKind": "All",
@@ -2613,17 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\manga4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\manga5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\manga5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/manga5.jpg",
       "AssetKind": "All",
@@ -2637,17 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\manga5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto0.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto0.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto0.jpg",
       "AssetKind": "All",
@@ -2661,17 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto0.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto1.jpg",
       "AssetKind": "All",
@@ -2685,17 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto10.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto10.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto10.jpg",
       "AssetKind": "All",
@@ -2709,17 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto10.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto11.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto11.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto11.jpg",
       "AssetKind": "All",
@@ -2733,17 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto11.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto12.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto12.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto12.jpg",
       "AssetKind": "All",
@@ -2757,17 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto12.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto13.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto13.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto13.jpg",
       "AssetKind": "All",
@@ -2781,17 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto13.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto14.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto14.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto14.jpg",
       "AssetKind": "All",
@@ -2805,17 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto14.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto15.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto15.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto15.jpg",
       "AssetKind": "All",
@@ -2829,17 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto15.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto16.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto16.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto16.jpg",
       "AssetKind": "All",
@@ -2853,17 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto16.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto17.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto17.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto17.jpg",
       "AssetKind": "All",
@@ -2877,17 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto17.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto18.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto18.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto18.jpg",
       "AssetKind": "All",
@@ -2901,17 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto18.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto19.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto19.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto19.jpg",
       "AssetKind": "All",
@@ -2925,17 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto19.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto2.jpg",
       "AssetKind": "All",
@@ -2949,17 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto20.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto20.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto20.jpg",
       "AssetKind": "All",
@@ -2973,17 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto20.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto21.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto21.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto21.jpg",
       "AssetKind": "All",
@@ -2997,17 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto21.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto22.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto22.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto22.jpg",
       "AssetKind": "All",
@@ -3021,17 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto22.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto23.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto23.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto23.jpg",
       "AssetKind": "All",
@@ -3045,17 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto23.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto24.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto24.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto24.jpg",
       "AssetKind": "All",
@@ -3069,17 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto24.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto25.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto25.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto25.jpg",
       "AssetKind": "All",
@@ -3093,17 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto25.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto26.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto26.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto26.jpg",
       "AssetKind": "All",
@@ -3117,17 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto26.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto27.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto27.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto27.jpg",
       "AssetKind": "All",
@@ -3141,17 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto27.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto28.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto28.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto28.jpg",
       "AssetKind": "All",
@@ -3165,17 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto28.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto29.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto29.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto29.jpg",
       "AssetKind": "All",
@@ -3189,17 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto29.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto3.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto3.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto3.jpg",
       "AssetKind": "All",
@@ -3213,17 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto3.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto30.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto30.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto30.jpg",
       "AssetKind": "All",
@@ -3237,17 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto30.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto31.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto31.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto31.jpg",
       "AssetKind": "All",
@@ -3261,17 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto31.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto32.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto32.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto32.jpg",
       "AssetKind": "All",
@@ -3285,17 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto32.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto4.jpg",
       "AssetKind": "All",
@@ -3309,17 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto5.jpg",
       "AssetKind": "All",
@@ -3333,17 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto6.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto6.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto6.jpg",
       "AssetKind": "All",
@@ -3357,17 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto6.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto7.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto7.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto7.jpg",
       "AssetKind": "All",
@@ -3381,17 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto7.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto8.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto8.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto8.jpg",
       "AssetKind": "All",
@@ -3405,17 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto8.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto9.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\naruto9.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/naruto9.jpg",
       "AssetKind": "All",
@@ -3429,17 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\naruto9.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece1.jpg",
       "AssetKind": "All",
@@ -3453,17 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece10.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece10.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece10.jpg",
       "AssetKind": "All",
@@ -3477,17 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece10.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece11.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece11.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece11.jpg",
       "AssetKind": "All",
@@ -3501,17 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece11.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece2.jpg",
       "AssetKind": "All",
@@ -3525,17 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece3.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece3.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece3.jpg",
       "AssetKind": "All",
@@ -3549,17 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece3.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece4.jpg",
       "AssetKind": "All",
@@ -3573,17 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece5.jpg",
       "AssetKind": "All",
@@ -3597,17 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece6.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece6.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece6.jpg",
       "AssetKind": "All",
@@ -3621,17 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece6.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece7.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece7.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece7.jpg",
       "AssetKind": "All",
@@ -3645,17 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece7.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece8.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece8.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece8.jpg",
       "AssetKind": "All",
@@ -3669,17 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece8.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece9.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\onePiece9.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/onePiece9.jpg",
       "AssetKind": "All",
@@ -3693,17 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\onePiece9.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance0.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance0.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance0.jpg",
       "AssetKind": "All",
@@ -3717,17 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance0.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance1.jpg",
       "AssetKind": "All",
@@ -3741,17 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance10.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance10.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance10.jpg",
       "AssetKind": "All",
@@ -3765,17 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance10.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance11.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance11.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance11.jpg",
       "AssetKind": "All",
@@ -3789,17 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance11.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance12.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance12.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance12.jpg",
       "AssetKind": "All",
@@ -3813,17 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance12.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance13.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance13.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance13.jpg",
       "AssetKind": "All",
@@ -3837,17 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance13.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance14.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance14.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance14.jpg",
       "AssetKind": "All",
@@ -3861,17 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance14.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance15.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance15.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance15.jpg",
       "AssetKind": "All",
@@ -3885,17 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance15.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance16.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance16.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance16.jpg",
       "AssetKind": "All",
@@ -3909,17 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance16.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance17.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance17.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance17.jpg",
       "AssetKind": "All",
@@ -3933,17 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance17.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance18.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance18.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance18.jpg",
       "AssetKind": "All",
@@ -3957,17 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance18.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance19.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance19.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance19.jpg",
       "AssetKind": "All",
@@ -3981,17 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance19.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance2.jpg",
       "AssetKind": "All",
@@ -4005,17 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance20.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance20.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance20.jpg",
       "AssetKind": "All",
@@ -4029,17 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance20.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance3.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance3.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance3.jpg",
       "AssetKind": "All",
@@ -4053,17 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance3.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance4.jpg",
       "AssetKind": "All",
@@ -4077,17 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance5.jpg",
       "AssetKind": "All",
@@ -4101,17 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance6.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance6.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance6.jpg",
       "AssetKind": "All",
@@ -4125,17 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance6.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance7.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance7.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance7.jpg",
       "AssetKind": "All",
@@ -4149,17 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance7.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance8.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance8.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance8.jpg",
       "AssetKind": "All",
@@ -4173,17 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance8.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\romance9.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\romance9.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/romance9.jpg",
       "AssetKind": "All",
@@ -4197,17 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\romance9.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction1.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction1.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction1.jpg",
       "AssetKind": "All",
@@ -4221,17 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction1.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction10.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction10.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction10.jpg",
       "AssetKind": "All",
@@ -4245,17 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction10.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction11.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction11.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction11.jpg",
       "AssetKind": "All",
@@ -4269,17 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction11.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction12.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction12.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction12.jpg",
       "AssetKind": "All",
@@ -4293,17 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction12.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction13.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction13.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction13.jpg",
       "AssetKind": "All",
@@ -4317,17 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction13.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction14.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction14.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction14.jpg",
       "AssetKind": "All",
@@ -4341,17 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction14.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction15.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction15.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction15.jpg",
       "AssetKind": "All",
@@ -4365,17 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction15.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction16.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction16.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction16.jpg",
       "AssetKind": "All",
@@ -4389,17 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction16.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction17.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction17.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction17.jpg",
       "AssetKind": "All",
@@ -4413,17 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction17.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction18.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction18.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction18.jpg",
       "AssetKind": "All",
@@ -4437,17 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction18.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction19.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction19.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction19.jpg",
       "AssetKind": "All",
@@ -4461,17 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction19.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction2.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction2.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction2.jpg",
       "AssetKind": "All",
@@ -4485,17 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction2.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction20.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction20.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction20.jpg",
       "AssetKind": "All",
@@ -4509,17 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction20.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction21.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction21.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction21.jpg",
       "AssetKind": "All",
@@ -4533,17 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction21.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction22.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction22.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction22.jpg",
       "AssetKind": "All",
@@ -4557,17 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction22.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction23.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction23.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction23.jpg",
       "AssetKind": "All",
@@ -4581,17 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction23.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction24.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction24.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction24.jpg",
       "AssetKind": "All",
@@ -4605,17 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction24.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction25.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction25.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction25.jpg",
       "AssetKind": "All",
@@ -4629,17 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction25.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction3.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction3.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction3.jpg",
       "AssetKind": "All",
@@ -4653,17 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction3.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction4.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction4.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction4.jpg",
       "AssetKind": "All",
@@ -4677,17 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction4.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction5.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction5.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction5.jpg",
       "AssetKind": "All",
@@ -4701,17 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction5.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction6.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction6.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction6.jpg",
       "AssetKind": "All",
@@ -4725,17 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction6.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction7.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction7.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction7.jpg",
       "AssetKind": "All",
@@ -4749,17 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction7.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction8.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction8.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction8.jpg",
       "AssetKind": "All",
@@ -4773,17 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction8.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction9.jpg",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\Products\\scientfiction9.jpg",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/Products/scientfiction9.jpg",
       "AssetKind": "All",
@@ -4797,17 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\Products\\scientfiction9.jpg"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\1.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\1.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/1.png",
       "AssetKind": "All",
@@ -4821,17 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\SlideShows\\1.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\2.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\2.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/2.png",
       "AssetKind": "All",
@@ -4845,17 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\SlideShows\\2.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\3.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\3.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/3.png",
       "AssetKind": "All",
@@ -4869,17 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\SlideShows\\3.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\4.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\4.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/4.png",
       "AssetKind": "All",
@@ -4893,17 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\SlideShows\\4.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_1_img.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_1_img.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/slide_1_img.png",
       "AssetKind": "All",
@@ -4917,17 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\SlideShows\\slide_1_img.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_2_mb.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_2_mb.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/slide_2_mb.png",
       "AssetKind": "All",
@@ -4941,17 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\SlideShows\\slide_2_mb.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_3_mb.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_3_mb.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/slide_3_mb.png",
       "AssetKind": "All",
@@ -4965,17 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\SlideShows\\slide_3_mb.png"
     },
     {
-<<<<<<< HEAD
       "Identity": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_4_img.png",
       "SourceId": "MangaFigure",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\wwwroot\\",
-=======
-      "Identity": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\Uploads\\SlideShows\\slide_4_img.png",
-      "SourceId": "MangaFigure",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\wwwroot\\",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
       "BasePath": "_content/MangaFigure",
       "RelativePath": "Uploads/SlideShows/slide_4_img.png",
       "AssetKind": "All",

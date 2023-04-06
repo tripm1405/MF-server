@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "FSgg8Mjb6VQhaspTnhNTvVGp0IF/1ZERtEDn2VoVFcnTBijwSoTS2b8KrltOIyd4lOAEZmxvmRaZ2tT9mFxU/A==",
   "success": true,
   "projectFilePath": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj",
-=======
-  "dgSpecHash": "rX7crSETqdJlGdRmPHdDl5NIoCqIYVoLNHlCu3gy1RtpaAfg2s6o+9axL29ynRSy1eDc/bfFKS26jx5+5xbqfQ==",
-  "success": true,
-  "projectFilePath": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\MangaFigure.csproj",
->>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
   "expectedPackageFiles": [
     "C:\\Users\\CarrotDay\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\CarrotDay\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
