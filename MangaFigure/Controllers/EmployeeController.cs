@@ -44,4 +44,11 @@ public class EmployeeController : ControllerBase
         var authors = await _employeeRepository.RemoveEmployeeAsync(id);
         return Ok(authors);
     }
+
+    [HttpPost("")]
+    public async Task<IActionResult> GetEmployeeWithBodyAsync([FromBody] EmployeeDto body)
+    {
+        var data = await _employeeRepository.GetEmployeesWithBodyAsync(body);
+        return Ok(data);
+    }
 }

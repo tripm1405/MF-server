@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rX7crSETqdJlGdRmPHdDl5NIoCqIYVoLNHlCu3gy1RtpaAfg2s6o+9axL29ynRSy1eDc/bfFKS26jx5+5xbqfQ==",
+  "dgSpecHash": "aOnOLUazsH96lOcRTseSF8F05pI5wgpOYml8li7UorK9oqer1L/1Q0DzgKjbXsuoAhqKl9Au4x5XFxIKJuzOAw==",
   "success": true,
   "projectFilePath": "D:\\TDTU\\subject\\00-dot-net-technology\\MF\\MF-backend\\MangaFigure\\MangaFigure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.32\\microsoft.aspnetcore.authentication.jwtbearer.3.1.32.nupkg.sha512",
     "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

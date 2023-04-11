@@ -526,3 +526,4 @@ D:\Giang\dotnet-core\MF-server\MangaFigure\obj\Debug\net6.0\refint\MangaFigure.d
 D:\Giang\dotnet-core\MF-server\MangaFigure\obj\Debug\net6.0\MangaFigure.pdb
 D:\Giang\dotnet-core\MF-server\MangaFigure\obj\Debug\net6.0\MangaFigure.genruntimeconfig.cache
 D:\Giang\dotnet-core\MF-server\MangaFigure\obj\Debug\net6.0\ref\MangaFigure.dll
+D:\TDTU\subject\00-dot-net-technology\MF\MF-backend\MangaFigure\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

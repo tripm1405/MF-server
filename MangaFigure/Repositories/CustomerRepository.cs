@@ -82,4 +82,12 @@ public class CustomerRepository
 
     }
 
+    public async Task<List<Customer>> GetCustomerWithBodyAsync(CustomerDto body)
+    {
+        var data = from customer in _dbContext.Customers
+                   orderby customer.CreateAt descending
+                   select customer;
+
+        return await data.AsQueryable().AsNoTracking().ToListAsync();
+    }
 }

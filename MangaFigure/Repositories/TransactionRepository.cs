@@ -78,4 +78,28 @@ public class TransactionRepository
 
     }
 
+    public async Task<List<MyTransactionDto>> GetTransactionsWithBodyAsync(TransactionDto body)
+    {
+        var data = from transaction in _dbContext.Transactions
+                   join customer in _dbContext.Customers on transaction.Customer equals customer.Id
+                   join employee in _dbContext.Employees on transaction.Employee equals employee.Id
+                   join transactionStatus in _dbContext.TransactionStatuses on transaction.Status equals transactionStatus.Id
+                   orderby transaction.CreateAt descending
+                   select new MyTransactionDto()
+                   {
+                        Customer = transaction.Customer,
+                        CustomerName = customer.Name,
+                        Employee = transaction.Employee,
+                        EmployeeName = employee.Name,
+                        Status = transaction.Status,
+                        StatusName = transactionStatus.Content,
+                        Rate = transaction.Rate,
+                        Meta = transaction.Meta,
+                        Active = transaction.Active,
+                        Order = transaction.Order,
+                        CreateAt = transaction.CreateAt,
+                   };
+
+        return await data.AsQueryable().AsNoTracking().ToListAsync();
+    }
 }

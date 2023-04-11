@@ -44,4 +44,11 @@ public class TransactionController : ControllerBase
         var authors = await _transactionRepository.RemoveTransactionAsync(id);
         return Ok(authors);
     }
+
+    [HttpPost("")]
+    public async Task<IActionResult> GetEmployeeWithBodyAsync([FromBody] TransactionDto body)
+    {
+        var data = await _transactionRepository.GetTransactionsWithBodyAsync(body);
+        return Ok(data);
+    }
 }

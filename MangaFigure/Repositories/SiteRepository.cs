@@ -2,17 +2,28 @@ using MangaFigure.DTOs;
 using MangaFigure.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Reflection.PortableExecutable;
+using System.Security.Claims;
+using System.Text;
 
 namespace MangaFigure.Repositories;
 
 public class SiteRepository
 {
-    private readonly MangaFigureContext _dbContext;
-    
-    public SiteRepository(MangaFigureContext dbContext)
+    //private readonly MangaFigureContext _dbContext;
+    private readonly MangaFigureContext _dbContext = new MangaFigureContext();
+    private IConfiguration _configuration;
+
+    //public SiteRepository(MangaFigureContext dbContext)
+    //{
+    //    _dbContext = dbContext;
+    //}
+
+    public SiteRepository(IConfiguration configuration)
     {
-        _dbContext = dbContext;
+        _configuration = configuration;
     }
 
     public async Task<Customer> PostSignInByCustomerAsync(Customer customer)
@@ -342,5 +353,36 @@ public class SiteRepository
 
         await _dbContext.SaveChangesAsync();
         return footer;
+    }
+
+    public async Task<string> Test()
+    {
+        System.Diagnostics.Debug.WriteLine("0");
+        var claims = new[]
+        {
+            new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
+            new Claim("Username", "hello"),
+            new Claim("Role", "0")
+        };
+
+        System.Diagnostics.Debug.WriteLine("1");
+
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+        var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+        var token = new JwtSecurityToken(
+            _configuration["Jwt:Issuer"],
+            _configuration["Jwt:Audience"],
+            claims,
+            expires: DateTime.UtcNow.AddMinutes(10),
+            signingCredentials: signIn);
+
+        System.Diagnostics.Debug.WriteLine("2");
+
+        var data = await Task<string>.Run(() => new JwtSecurityTokenHandler().WriteToken(token));
+        System.Diagnostics.Debug.WriteLine("3");
+
+        return data;
     }
 }

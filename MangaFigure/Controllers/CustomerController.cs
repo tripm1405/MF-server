@@ -44,4 +44,11 @@ public class CustomerController : ControllerBase
         var authors = await _customerRepository.RemoveCustomerAsync(id);
         return Ok(authors);
     }
+
+    [HttpPost("")]
+    public async Task<IActionResult> GetCustomerWithBody([FromBody] CustomerDto body)
+    {
+        var data = await _customerRepository.GetCustomerWithBodyAsync(body);
+        return Ok(data);
+    }
 }

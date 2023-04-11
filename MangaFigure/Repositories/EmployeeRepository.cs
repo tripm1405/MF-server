@@ -82,4 +82,12 @@ public class EmployeeRepository
 
     }
 
+    public async Task<List<Employee>> GetEmployeesWithBodyAsync(EmployeeDto body)
+    {
+        var data = from employee in _dbContext.Employees
+                   orderby employee.CreateAt descending
+                   select employee;
+
+        return await data.AsQueryable().AsNoTracking().ToListAsync();
+    }
 }
