@@ -529,8 +529,11 @@ D:\Giang\dotnet-core\MF-server\MangaFigure\obj\Debug\net6.0\MangaFigure.pdb
 D:\Giang\dotnet-core\MF-server\MangaFigure\obj\Debug\net6.0\MangaFigure.genruntimeconfig.cache
 D:\Giang\dotnet-core\MF-server\MangaFigure\obj\Debug\net6.0\ref\MangaFigure.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\TDTU\subject\00-dot-net-technology\MF\MF-backend\MangaFigure\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 =======
+=======
+>>>>>>> 85a181b62e5a41e539def466e3479ec54dbcbd9d
 >>>>>>> f9ce04119a11984303a46a9617680d44aa94b91c
 C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure\bin\Debug\net6.0\appsettings.json
@@ -595,4 +598,7 @@ C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure\obj\Debug\net6.0\refi
 C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure\obj\Debug\net6.0\MangaFigure.pdb
 C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure\obj\Debug\net6.0\MangaFigure.genruntimeconfig.cache
 C:\Users\CarrotDay\Desktop\DOCNET\GK\MF-server\MangaFigure\obj\Debug\net6.0\ref\MangaFigure.dll
+<<<<<<< HEAD
+>>>>>>> 85a181b62e5a41e539def466e3479ec54dbcbd9d
+=======
 >>>>>>> 85a181b62e5a41e539def466e3479ec54dbcbd9d

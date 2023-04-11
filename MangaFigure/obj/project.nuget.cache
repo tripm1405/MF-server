@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "aOnOLUazsH96lOcRTseSF8F05pI5wgpOYml8li7UorK9oqer1L/1Q0DzgKjbXsuoAhqKl9Au4x5XFxIKJuzOAw==",
 =======
   "dgSpecHash": "FSgg8Mjb6VQhaspTnhNTvVGp0IF/1ZERtEDn2VoVFcnTBijwSoTS2b8KrltOIyd4lOAEZmxvmRaZ2tT9mFxU/A==",
@@ -60,6 +61,12 @@
     "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\KROTOHMAKI\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
 =======
+=======
+  "dgSpecHash": "FSgg8Mjb6VQhaspTnhNTvVGp0IF/1ZERtEDn2VoVFcnTBijwSoTS2b8KrltOIyd4lOAEZmxvmRaZ2tT9mFxU/A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\CarrotDay\\Desktop\\DOCNET\\GK\\MF-server\\MangaFigure\\MangaFigure.csproj",
+  "expectedPackageFiles": [
+>>>>>>> 85a181b62e5a41e539def466e3479ec54dbcbd9d
     "C:\\Users\\CarrotDay\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\CarrotDay\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\CarrotDay\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -109,6 +116,9 @@
     "C:\\Users\\CarrotDay\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\CarrotDay\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\CarrotDay\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+<<<<<<< HEAD
+>>>>>>> 85a181b62e5a41e539def466e3479ec54dbcbd9d
+=======
 >>>>>>> 85a181b62e5a41e539def466e3479ec54dbcbd9d
   ],
   "logs": []
