@@ -162,11 +162,4 @@ public class SiteController : ControllerBase
         var authors = await _siteRepository.RemoveFooterAsync(id);
         return Ok(authors);
     }
-
-    [HttpGet("test")]
-    public async Task<IActionResult> Test()
-    {
-        var data = await _siteRepository.Test();
-        return Ok(data);
-    }
 }

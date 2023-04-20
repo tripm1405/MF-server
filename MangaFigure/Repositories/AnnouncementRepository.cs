@@ -16,8 +16,21 @@ public class AnnouncementRepository
 
     public async Task<List<Announcement>> GetAnnouncementAsync()
     {
-        var data = await _dbContext.Announcements.AsQueryable().AsNoTracking().ToListAsync();
-        return data;
+        // Config.OUT_ANNOUNCES + 
+        var data = from announcementModel in _dbContext.Announcements
+                   select new Announcement()
+                   {
+                       Meta = announcementModel.Meta,
+                       Title = announcementModel.Title,
+                       Content = announcementModel.Content,
+                       Order = announcementModel.Order,
+                       Active = announcementModel.Active,
+                       CreateAt = announcementModel.CreateAt,
+                       Image = Config.OUT_ANNOUNCES + announcementModel.Image
+                   };
+
+        //var data = await _dbContext.Announcements.AsQueryable().AsNoTracking().ToListAsync();
+        return await data.AsQueryable().AsNoTracking().ToListAsync();
     }
 
     public async Task<Announcement> AddAnnouncementAsync(AnnouncementDto announcementModel)

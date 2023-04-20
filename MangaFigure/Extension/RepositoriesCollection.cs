@@ -7,6 +7,7 @@ public static class RepositoriesCollection
 {
     public static void AddRepositories(this IServiceCollection serviceCollection)
     {
+        serviceCollection.AddTransient<AccountRepository, AccountRepository>();
         serviceCollection.AddTransient<NavbarRepository, NavbarRepository>();
         serviceCollection.AddTransient<SiteRepository, SiteRepository>();
         serviceCollection.AddTransient<CustomerRepository, CustomerRepository>();
