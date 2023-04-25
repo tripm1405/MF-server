@@ -21,7 +21,6 @@ namespace MangaFigure.Models
         public int? Price { get; set; }
         public int? Discount { get; set; }
         public int? Amount { get; set; }
-        public int? Sale { get; set; }
         public string? Meta { get; set; }
         public bool? Active { get; set; }
         public int? Order { get; set; }

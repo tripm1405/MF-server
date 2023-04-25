@@ -24,7 +24,6 @@ public class VoucherRepository
     {
         var newVoucher = new Voucher()
         {
-           
             Name = voucherModel.Name,
             Description = voucherModel.Description,
             Type = voucherModel.Type,

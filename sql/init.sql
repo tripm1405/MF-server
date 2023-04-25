@@ -102,7 +102,6 @@ CREATE TABLE [Product] (
 	[price] INT,
 	[discount] INT,
 	[amount] INT,
-	[sale] INT,
 	[meta] VARCHAR(256),
 	[active] BIT DEFAULT 1,
 	[order] INT,
@@ -700,10 +699,10 @@ INSERT INTO [ProductImage] ([product], [link]) VALUES
 GO
 
 INSERT INTO [TransactionStatus] ([content]) VALUES 
-(N'Chờ xử lý'),
-(N'Đã xác nhận'),
-(N'Đang vận chuyển'),
+(N'Chưa thanh toán'),
 (N'Đã thanh toán'),
+(N'Đang vận chuyển'),
+(N'Đã xác nhận'),
 (N'Hủy')
 GO
 

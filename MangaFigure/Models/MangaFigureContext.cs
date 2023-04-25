@@ -438,9 +438,7 @@ namespace MangaFigure.Models
                 entity.Property(e => e.Order).HasColumnName("order");
 
                 entity.Property(e => e.Price).HasColumnName("price");
-
-                entity.Property(e => e.Sale).HasColumnName("sale");
-
+                
                 entity.Property(e => e.Type).HasColumnName("type");
 
                 entity.HasOne(d => d.CatalogNavigation)
