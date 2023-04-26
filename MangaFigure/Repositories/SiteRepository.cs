@@ -58,13 +58,16 @@ public class SiteRepository
 
     public async Task<Customer> PostSignUpByCustomerAsync(CustomerDto customer)
     {
-        var checkExist = from t in _dbContext.Customers where t.Username == customer.Username select t;
-        var account = checkExist.FirstOrDefault();
-        if (account != null)
+        if ((await _dbContext.Customers.FirstOrDefaultAsync(t => t.Username == customer.Username)) != null)
         {
-            return null;
+            throw new Exception("Hay dung tai khoan khac");
         }
-        
+
+        if ((await _dbContext.Employees.FirstOrDefaultAsync(t => t.Username == customer.Username)) != null)
+        {
+            throw new Exception("Hay dung tai khoan khac");
+        }
+
         var newCustomer = new Customer()
         {
             Name = customer.Name,

@@ -44,6 +44,7 @@ public class AccountRepository
 
                 return await Task<string>.Run(() => GetToken(new AccountData()
                 {
+                    Id = 0,
                     Username = body.Username,
                     Email = "",
                     Role = 0
@@ -58,6 +59,7 @@ public class AccountRepository
             {
                 return await Task<string>.Run(() => GetToken(new AccountData()
                 {
+                    Id = employeeAccount.Id,
                     Username = body.Username,
                     Email = employeeAccount.Email,
                     Role = 1
@@ -72,6 +74,7 @@ public class AccountRepository
             {
                 return await Task<string>.Run(() => GetToken(new AccountData()
                 {
+                    Id = customerAccount.Id,
                     Username = body.Username,
                     Email = customerAccount.Email,
                     Role = 2
@@ -106,6 +109,7 @@ public class AccountRepository
 
             return await Task<AccountData>.Run(() => new AccountData()
             {
+                Id = int.Parse(claims.First(x => x.Type == "Id").Value),
                 Username = claims.First(x => x.Type == "Username").Value,
                 Email = claims.First(x => x.Type == "Email").Value,
                 Role = int.Parse(claims.First(x => x.Type == "Role").Value)
@@ -124,6 +128,7 @@ public class AccountRepository
             new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
+            new Claim("id", data.Id.ToString()),
             new Claim("username", data.Username),
             new Claim("email", data.Email),
             new Claim("role", data.Role.ToString())
@@ -144,6 +149,7 @@ public class AccountRepository
 
 public class AccountData
 {
+    public int? Id { get; set; }
     public string? Username { get; set; }
     public string? Email { get; set; }
     public int? Role { get; set; }
