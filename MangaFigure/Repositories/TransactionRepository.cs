@@ -19,6 +19,16 @@ public class TransactionRepository
         var data = await _dbContext.Transactions.AsQueryable().AsNoTracking().ToListAsync();
         return data;
     }
+    
+    public async Task<Transaction> GetTransactionByMetaAsync(string meta)
+    {
+        var qb = _dbContext.Transactions.AsQueryable()
+            .Include(e => e.TransactionDetails)
+            .Include(e => e.StatusNavigation)
+            .Where(e => e.Meta == meta);
+        var res = await qb.AsNoTracking().FirstOrDefaultAsync();
+        return res;
+    }
 
     public async Task<Transaction> AddTransactionAsync(TransactionDto transactionModel)
     {

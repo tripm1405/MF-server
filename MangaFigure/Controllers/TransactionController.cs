@@ -23,6 +23,13 @@ public class TransactionController : ControllerBase
         var authors = await _transactionRepository.GetTransactionAsync();
         return Ok(authors);
     }
+    
+    [HttpGet("{meta}")]
+    public async Task<IActionResult> GetTransactionByMetaAsync(string meta)
+    {
+        var transactions = await _transactionRepository.GetTransactionByMetaAsync(meta);
+        return Ok(transactions);
+    }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewTransactionAsync([FromBody] TransactionDto transactionModel)
