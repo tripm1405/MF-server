@@ -762,10 +762,13 @@ INSERT INTO [SlideShow] ([image]) VALUES
 ('4.png')
 GO
 
-INSERT INTO [Contact] ([link]) VALUES
-('https://www.twitter.con'),
-('https://www.facebook.com'),
-('https://www.instagram.com')
+INSERT INTO [Contact] ([name], [link]) VALUES
+('Twitter', 'https://www.twitter.con'),
+('Instagram', 'https://www.instagram.com'),
+('Facebook', 'https://www.facebook.com'),
+('Phone', '0356625002'),
+('Email', '52000720@student.tdtu.edu.vn'),
+('Address', 'A19, Nguyen Huu Tho, Tan Phong, Quan 7, TP.HCM')
 GO
 
 INSERT INTO [Footer] ([description], [logo]) VALUES
