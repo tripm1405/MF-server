@@ -45,6 +45,13 @@ public class ProductController : ControllerBase
         return Ok(data);
     }
 
+    [HttpPost("update/{meta}")]
+    public async Task<IActionResult> UpdateProduct(string meta, [FromBody] ProductDto body)
+    {
+        var data = await _productRepository.UpdateProductAsync(meta, body);
+        return Ok(data);
+    }
+
     [HttpGet("{meta}")]
     public async Task<IActionResult> GetProductWithMeta(string meta)
     {

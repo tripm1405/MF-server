@@ -53,6 +53,66 @@ public class ProductRepository
         return newProduct;
     }
 
+    public async Task<Product> UpdateProductAsync(string meta, ProductDto Product)
+    {
+        var newProduct = await _dbContext.Products.FirstOrDefaultAsync(t => t.Meta == meta);
+
+        if (newProduct == null)
+        {
+            throw new Exception("Bad request");
+        }
+
+        if (Product.Name != null)
+        {
+            newProduct.Name = Product.Name;
+        }
+        if (Product.Description != null)
+        {
+            newProduct.Description = Product.Description;
+        }
+        if (Product.Type != null)
+        {
+            newProduct.Type = Product.Type;
+        }
+        if (Product.Catalog != null)
+        {
+            newProduct.Catalog = Product.Catalog;
+        }
+        if (Product.Price != null)
+        {
+            newProduct.Price = Product.Price;
+        }
+        if (Product.Discount != null)
+        {
+            newProduct.Discount = Product.Discount;
+        }
+        if (Product.Active != null)
+        {
+            newProduct.Active = Product.Active;
+        }
+        if (Product.Image != null)
+        {
+            newProduct.Image = Product.Image;
+        }
+
+        _dbContext.Products.Update(newProduct);
+        await _dbContext.SaveChangesAsync();
+
+
+        if (Product.Image != null)
+        {
+            var productImage = await _dbContext.ProductImages.FirstOrDefaultAsync(t => t.Id == newProduct.Image);
+
+            productImage.Product = newProduct.Id;
+
+            _dbContext.ProductImages.Update(productImage);
+
+            await _dbContext.SaveChangesAsync();
+        }
+
+        return newProduct;
+    }
+
     public async Task<List<ProductsWithImageSrcDto>> GetProductsAsync()
     {
         var data = from product in _dbContext.Products
