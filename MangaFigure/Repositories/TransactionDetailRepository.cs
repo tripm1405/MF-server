@@ -27,6 +27,7 @@ public class TransactionDetailRepository
             Product = transactionDetailModel.Product,
             Transaction = transactionDetailModel.Transaction,
             Meta = transactionDetailModel.Meta,
+            Amount = transactionDetailModel.Amount,
             Active = transactionDetailModel.Active,
             Order = transactionDetailModel.Order,
             CreateAt = transactionDetailModel.CreateAt,
@@ -48,6 +49,7 @@ public class TransactionDetailRepository
         transactionDetail.Transaction = transactionDetailModel.Transaction;
         transactionDetail.Meta = transactionDetailModel.Meta;
         transactionDetail.Active = transactionDetailModel.Active;
+        transactionDetail.Amount = transactionDetailModel.Amount;
         transactionDetail.Order = transactionDetailModel.Order;
         transactionDetail.CreateAt = transactionDetailModel.CreateAt;
 

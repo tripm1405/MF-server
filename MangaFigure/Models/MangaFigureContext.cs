@@ -622,6 +622,8 @@ namespace MangaFigure.Models
 
                 entity.Property(e => e.Order).HasColumnName("order");
 
+                entity.Property(e => e.Amount).HasColumnName("amount");
+
                 entity.Property(e => e.Product).HasColumnName("product");
 
                 entity.Property(e => e.Transaction).HasColumnName("transaction");

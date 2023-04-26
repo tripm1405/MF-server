@@ -165,6 +165,7 @@ CREATE TABLE [TransactionDetail] (
 	[id] INT IDENTITY(1, 1),
 	[transaction] INT,
 	[product] INT,
+	[amount] INT,
 	[meta] VARCHAR(256),
 	[active] BIT DEFAULT 1,
 	[order] INT,
@@ -308,15 +309,15 @@ INSERT INTO [Announcement] ([title], [content],[image]) VALUES
 GO
 
 INSERT INTO [Employee] ([name], [username], [password], [email], [address], [phone], [birthday]) VALUES 
-(N'Nguyễn Thanh Thúy', 'nguyenthanhthuy', '$2a$11$Dxv02GFIM7gw6MzbfLTnRe4dDFqEpIRtOJF.l/hxfyunq5gnbIF/i', 'nguyenthanhthuy@gmail.com', N'142 Đ. Ba Đình, Phường 10, Quận 8', '0826361554', '1998-03-02'),
-(N'Phạm Minh Trí', 'phamminhtri', '$2a$11$VtvLM6NGKxqOlRGsqAEYx.lCz9iP.0Kamv4xtXeUqWSFTBj/kwVcu', 'phamminhtri@gmail.com', N'587 Lê Văn Lương, Tân Phong, Quận 7', '03348152847', '1995-07-16'),
-(N'Nguyễn Thị Hương Giang', 'nguyenthihuonggiang', '$2a$11$rtY.5stvL5TnXykoSpf5yeNCn.lrbLkQew4jJRoawGzt7R.IYMtMm', 'nguyenthihuonggiang@gmail.com', N'142 Đ. Ba Đình, Phường 10, Quận 8', '0826361554', '1999-09-23')
+(N'Nguyễn Thanh Thúy', 'nguyenthanhthuy', '$2a$11$Dxv02GFIM7gw6MzbfLTnRe4dDFqEpIRtOJF.l/hxfyunq5gnbIF/i', 'nguyenthanhthuy@gmail.com', N'142 Đ. Ba Đình, Phường 10, Quận 8, Hồ Chí Minh', '0826361554', '1998-03-02'),
+(N'Phạm Minh Trí', 'phamminhtri', '$2a$11$VtvLM6NGKxqOlRGsqAEYx.lCz9iP.0Kamv4xtXeUqWSFTBj/kwVcu', 'phamminhtri@gmail.com', N'587 Lê Văn Lương, Phường Tân Phong, Quận 7, Hồ Chí Minh', '03348152847', '1995-07-16'),
+(N'Nguyễn Thị Hương Giang', 'nguyenthihuonggiang', '$2a$11$rtY.5stvL5TnXykoSpf5yeNCn.lrbLkQew4jJRoawGzt7R.IYMtMm', 'nguyenthihuonggiang@gmail.com', N'142 Đ. Ba Đình, Phường 10, Quận 8, Hồ Chí Minh', '0826361554', '1999-09-23')
 GO
 
 INSERT INTO [Customer] ([name], [username], [password], [email], [address], [phone], [birthday]) VALUES 
-(N'Trần Hủ Nữ', 'tranhunu', '$2a$11$nFdtU2ynrHDz2sEb4ae.n.pYbclWQpdv8DrvMPRgBgwiiMef8PtA2', 'tranhunu@gmail.com', N'328 Đường Võ Văn Kiệt, Cô Giang, Quận 1', '0825165948', '2003-05-12'),
-(N'Đào Nữ Huế', 'daonuhue', '$2a$11$lq4xsC2cG.mEeTqgYwReVeBYDzRQLQTv4Bk1zZFHZtN1UypzgQs5q', 'daonuhue@gmail.com', N'59 Pasteur, Bến Nghé, Quận 1', '03315244859', '1997-01-21'),
-(N'Lê Sạt Boi', 'lesatboi', '$2a$11$CXBOWBfbN6FqJ6LcZRS/g.L3lSsbao0UbSNRgsbFjbwLJSXju7S8G', 'lesatboi@gmail.com', N'47 Đường Nguyễn Trãi, Bến Thành, Quận 1', '0823564548', '2001-11-06')
+(N'Trần Hủ Nữ', 'tranhunu', '$2a$11$nFdtU2ynrHDz2sEb4ae.n.pYbclWQpdv8DrvMPRgBgwiiMef8PtA2', 'tranhunu@gmail.com', N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 3, Hồ Chí Minh', '0825165948', '2003-05-12'),
+(N'Đào Nữ Huế', 'daonuhue', '$2a$11$lq4xsC2cG.mEeTqgYwReVeBYDzRQLQTv4Bk1zZFHZtN1UypzgQs5q', 'daonuhue@gmail.com', N'59 Pasteur, Phường Bến Nghé, Quận 1, Hồ Chí Minh', '03315244859', '1997-01-21'),
+(N'Lê Sạt Boi', 'lesatboi', '$2a$11$CXBOWBfbN6FqJ6LcZRS/g.L3lSsbao0UbSNRgsbFjbwLJSXju7S8G', 'lesatboi@gmail.com', N'47 Đường Nguyễn Trãi, Phường Bến Thành, Quận 1, Hồ Chí Minh', '0823564548', '2001-11-06')
 GO
 
 INSERT INTO [Catalog] ([name], [type], [meta]) VALUES 
@@ -714,18 +715,19 @@ INSERT INTO [Transaction] ([customer], [employee],[status],[rate]) VALUES
 (2,2,1,5),
 (3,2,1,4),
 (3,3,2,5),
-(1,3,1,4)
+(1,3,1,4),
+(3,1,3,5)
 GO
 
-INSERT INTO [TransactionDetail] ([transaction], [product]) VALUES 
-(1,1),
-(2,1),
-(3,2),
-(4,1),
-(1,5),
-(3,4),
-(3,5),
-(7,3)
+INSERT INTO [TransactionDetail] ([transaction], [product], [amount]) VALUES 
+(1,1,1),
+(2,1,1),
+(3,2,2),
+(4,1,2),
+(1,5,3),
+(3,4,3),
+(3,5,4),
+(7,3,4)
 GO
 
 INSERT INTO [ProductReview] ([product], [customer],[content],[rate]) VALUES 

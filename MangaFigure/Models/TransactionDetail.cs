@@ -8,6 +8,7 @@ namespace MangaFigure.Models
         public int Id { get; set; }
         public int? Transaction { get; set; }
         public int? Product { get; set; }
+        public int? Amount {get; set;}
         public string? Meta { get; set; }
         public bool? Active { get; set; }
         public int? Order { get; set; }
