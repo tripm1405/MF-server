@@ -12,18 +12,14 @@ namespace MangaFigure.Repositories;
 
 public class SiteRepository
 {
-    //private readonly MangaFigureContext _dbContext;
-    private readonly MangaFigureContext _dbContext = new MangaFigureContext();
+    private readonly MangaFigureContext _dbContext;
+    // private readonly MangaFigureContext _dbContext = new MangaFigureContext();
     private IConfiguration _configuration;
 
-    //public SiteRepository(MangaFigureContext dbContext)
-    //{
-    //    _dbContext = dbContext;
-    //}
-
-    public SiteRepository(IConfiguration configuration)
+    public SiteRepository(IConfiguration configuration, MangaFigureContext dbContext)
     {
         _configuration = configuration;
+        _dbContext = dbContext;
     }
 
     public async Task<Customer> PostSignInByCustomerAsync(Customer customer)
@@ -228,7 +224,7 @@ public class SiteRepository
 
     public async Task<List<Catalog>> GetCatalogAsync()
     {
-        return await _dbContext.Catalogs.AsQueryable().AsNoTracking().ToListAsync(); ;
+        return await _dbContext.Catalogs.AsQueryable().AsNoTracking().ToListAsync();
     }
 
     public async Task<List<Catalog>> GetCatalogWithBodyAsync(CatalogDto body)

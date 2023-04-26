@@ -11,12 +11,13 @@ namespace MangaFigure.Repositories;
 
 public class AccountRepository
 {
-    private readonly MangaFigureContext _dbContext = new MangaFigureContext();
+    private readonly MangaFigureContext _dbContext;
     private IConfiguration _configuration;
 
-    public AccountRepository(IConfiguration configuration)
+    public AccountRepository(IConfiguration configuration, MangaFigureContext dbContext)
     {
         _configuration = configuration;
+        _dbContext = dbContext;
     }
 
     public async Task<string> SignInAsync(AccountBody body)
@@ -50,7 +51,7 @@ public class AccountRepository
             }
         }
 
-        var employeeAccount = (from t in _dbContext.Employees where t.Username == body.Username select t).FirstOrDefault();
+        var employeeAccount = await _dbContext.Employees.FirstOrDefaultAsync(e => e.Username == body.Username);
         if (employeeAccount != null)
         {
             if (BCrypt.Net.BCrypt.Verify(body.Password, employeeAccount.Password))
@@ -64,7 +65,7 @@ public class AccountRepository
             }
         }
 
-        var customerAccount = (from t in _dbContext.Customers where t.Username == body.Username select t).FirstOrDefault();
+        var customerAccount = await _dbContext.Customers.FirstOrDefaultAsync(e => e.Username == body.Username);
         if (customerAccount != null)
         {
             if (BCrypt.Net.BCrypt.Verify(body.Password, customerAccount.Password))
