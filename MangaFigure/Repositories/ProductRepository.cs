@@ -3,6 +3,7 @@ using MangaFigure.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Reflection.PortableExecutable;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MangaFigure.Repositories;
 
@@ -32,14 +33,23 @@ public class ProductRepository
             Price = Product.Price,
             Discount = Product.Discount,
             Amount = Product.Amount,
-            Sale = Product.Sale,
             Meta = Product.Meta,
             Active = Product.Active,
-            Order = Product.Order,
-            CreateAt = Product.CreateAt
         };
         await _dbContext.Products.AddAsync(newProduct);
         await _dbContext.SaveChangesAsync();
+
+        if (newProduct.Image != null)
+        {
+            var productImage = await _dbContext.ProductImages.FirstOrDefaultAsync(t => t.Id == newProduct.Image);
+
+            productImage.Product = Product.Id;
+
+            _dbContext.ProductImages.Update(productImage);
+
+            await _dbContext.SaveChangesAsync();
+        }
+
         return newProduct;
     }
 
@@ -74,6 +84,7 @@ public class ProductRepository
     {
         var data = from product in _dbContext.Products
                    join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
+                   join catalog in _dbContext.Catalogs on product.Catalog equals catalog.Id
                    orderby product.Id descending
                    select new ProductsWithImageSrcDto()
                    {
@@ -91,7 +102,8 @@ public class ProductRepository
                        Active = product.Active,
                        Order = product.Order,
                        CreateAt = product.CreateAt,
-                       SrcImg = Config.OUT_PRODUCTS + productImage.Link
+                       SrcImg = Config.OUT_PRODUCTS + productImage.Link,
+                       CatalogMeta = catalog.Meta
                    };
 
         if (body.Type != null)
@@ -99,9 +111,9 @@ public class ProductRepository
             data = data.Where(product => product.Type == body.Type);
         }
 
-        if (body.Catalog != null)
+        if (body.CatalogMeta != null)
         {
-            data = data.Where(product => product.Catalog == body.Catalog);
+            data = data.Where(product => product.CatalogMeta == body.CatalogMeta);
         }
 
         if (body.Take != null) {
@@ -113,6 +125,7 @@ public class ProductRepository
 
     public async Task<ProductsWithImageSrcDto> GetProductAsync(string meta)
     {
+
         var data = from product in _dbContext.Products
                    join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
                    where product.Meta == meta
@@ -173,6 +186,23 @@ public class ProductRepository
                       .ToListAsync(),
             Pages = ((from product in _dbContext.Products select product).Count() / pageSize) + 1
         };
+    }
+
+    public async Task<Product> DelProductAsync(string meta)
+    {
+        Product? product = await _dbContext.Products.FirstOrDefaultAsync(t => t.Meta == meta);
+
+        List<ProductImage> productImages = await _dbContext.ProductImages.Where(t => t.Product == product.Id).ToListAsync();
+
+        foreach(ProductImage productImage in productImages)
+        {
+            _dbContext.ProductImages.Remove(productImage);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        _dbContext.Products.Remove(product);
+
+        return product;
     }
 }
 

@@ -17,5 +17,6 @@
         public int? Order { get; set; }
         public DateTime? CreateAt { get; set; }
         public string? SrcImg { get; set; }
+        public string? CatalogMeta { get; set; }
     }
 }

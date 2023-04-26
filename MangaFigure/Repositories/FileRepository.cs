@@ -14,7 +14,7 @@ public class FileRepository
         _dbContext = dbContext;
     }
 
-    public async Task<string> UploadFileAsync(IFormFile file)
+    public async Task<Object> UploadFileAsync(string table, IFormFile file)
     {
         var filePath = Path.Combine(Config.IN_PRODUCTS, file.FileName);
 
@@ -22,6 +22,28 @@ public class FileRepository
         {
             await file.CopyToAsync(stream);
         }
-        return filePath;
+
+        if (table == "ProductImage")
+        {
+            ProductImage productImage = new ProductImage()
+            {
+                Link = file.FileName,
+            };
+
+            await _dbContext.ProductImages.AddAsync(productImage);
+
+            await _dbContext.SaveChangesAsync();
+
+            return productImage;
+        }
+
+
+        throw new Exception($"Bad request");
     }
+}
+
+public class Tmp
+{
+    public string? Table { get; set; }
+    public string? File { get; set; }
 }

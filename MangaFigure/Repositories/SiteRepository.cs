@@ -233,12 +233,12 @@ public class SiteRepository
 
     public async Task<List<Catalog>> GetCatalogWithBodyAsync(CatalogDto body)
     {
-        var data = _dbContext.Catalogs;
+        IQueryable<Catalog> data = _dbContext.Catalogs;
         if (body.Type != null)
         {
-            data.Where(catalog => catalog.Type == body.Type);
+            data = data.Where(catalog => catalog.Type == body.Type);
         }
-        return await data.AsQueryable().AsNoTracking().ToListAsync(); ;
+        return await data.ToListAsync(); ;
     }
 
     public async Task<Catalog> AddCatalogAsync(CatalogDto catalogModel)

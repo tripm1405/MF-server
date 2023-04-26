@@ -17,16 +17,16 @@ public class FileController : ControllerBase
         _fileRepository = fileRepository;
     }
 
-    [HttpPost("")]
-    public async Task<IActionResult> Upload(IFormFile file)
+    [HttpPost("{table}")]
+    public async Task<IActionResult> Upload(string table, IFormFile file)
     {
         if (file == null || file.Length == 0)
         {
             return BadRequest("No file selected.");
         }
 
-        var filePath = await _fileRepository.UploadFileAsync(file);
+        var data = await _fileRepository.UploadFileAsync(table, file);
 
-        return Ok(new { file = filePath });
+        return Ok(data);
     }
 }
