@@ -16,15 +16,15 @@ public class FileRepository
 
     public async Task<Object> UploadFileAsync(string table, IFormFile file)
     {
-        var filePath = Path.Combine(Config.IN_PRODUCTS, file.FileName);
-
-        using (var stream = new FileStream(filePath, FileMode.Create))
-        {
-            await file.CopyToAsync(stream);
-        }
-
         if (table == "ProductImage")
         {
+            var filePath = Path.Combine(Config.IN_PRODUCTS, file.FileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
             ProductImage productImage = new ProductImage()
             {
                 Link = file.FileName,
@@ -36,6 +36,17 @@ public class FileRepository
 
             return productImage;
         }
+
+        string inPath = Config.IN_LOGOS;
+
+        string pathFile = Path.Combine(inPath, file.FileName);
+
+        using (var stream = new FileStream(pathFile, FileMode.Create))
+        {
+            await file.CopyToAsync(stream);
+        }
+
+        return Task.Run(() => "ok");
 
 
         throw new Exception($"Bad request");

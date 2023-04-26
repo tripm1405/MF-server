@@ -58,4 +58,12 @@ public class TransactionController : ControllerBase
         var data = await _transactionRepository.GetTransactionsWithBodyAsync(body);
         return Ok(data);
     }
+
+
+    //[HttpGet("detail/{id}")]
+    //public async Task<IActionResult> GetEmployeeWithBodyAsync(int id)
+    //{
+    //    var data = await _transactionRepository.GetTransactionsWithBodyAsync(id);
+    //    return Ok(data);
+    //}
 }

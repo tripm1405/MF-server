@@ -1,5 +1,6 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -85,7 +86,6 @@ public class TransactionRepository
 
         await _dbContext.SaveChangesAsync();
         return transaction;
-
     }
 
     public async Task<List<MyTransactionDto>> GetTransactionsWithBodyAsync(TransactionDto body)
@@ -113,4 +113,27 @@ public class TransactionRepository
 
         return await data.AsQueryable().AsNoTracking().ToListAsync();
     }
+
+    //public async Task<Transaction> GetTransactionWithIdAsync(int id)
+    //{
+    //    Transaction transaction = await _dbContext.Transactions.FirstOrDefaultAsync(t => t.Id == id);
+
+    //    if (transaction == null)
+    //    {
+    //        throw new Exception("Id khong khop");
+    //    }
+
+    //    var data = new
+    //    {
+    //        Id = transaction.Id,
+    //        Customer = await Pro,
+    //        Employee = transaction.Employee,
+
+    //    }
+
+    //    return ;
+
+    //    await _dbContext.SaveChangesAsync();
+    //    return transaction;
+    //}
 }

@@ -162,4 +162,18 @@ public class SiteController : ControllerBase
         var authors = await _siteRepository.RemoveFooterAsync(id);
         return Ok(authors);
     }
+
+    [HttpGet("logo")]
+    public async Task<IActionResult> GetLogoAsync()
+    {
+        var data = await _siteRepository.GetLogoAsync();
+        return Ok(data);
+    }
+
+    [HttpPost("header/description")]
+    public async Task<IActionResult> GetLogoAsync([FromBody] Header body)
+    {
+        var data = await _siteRepository.UpdateHeaderDescription(body);
+        return Ok(data);
+    }
 }

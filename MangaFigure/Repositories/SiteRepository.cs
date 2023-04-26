@@ -353,4 +353,27 @@ public class SiteRepository
         await _dbContext.SaveChangesAsync();
         return footer;
     }
+
+    public async Task<Object> GetLogoAsync()
+    {
+        var header = await _dbContext.Headers.OrderByDescending(t => t.CreateAt).FirstOrDefaultAsync();
+
+        return Task.Run(() => new
+        {
+            Description = header?.Description,
+            Logo = Config.OUT_LOGOS + header?.Logo
+        });
+    }
+
+    public async Task<Object> UpdateHeaderDescription(Header header)
+    {
+        var newHeader = await _dbContext.Headers.OrderByDescending(t => t.CreateAt).FirstOrDefaultAsync();
+
+        newHeader.Description = header.Description;
+
+        _dbContext.Headers.Update(newHeader);
+        await _dbContext.SaveChangesAsync();
+
+        return Task.Run(() => "Ok");
+    }
 }
