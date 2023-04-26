@@ -24,10 +24,10 @@ public class TransactionController : ControllerBase
         return Ok(authors);
     }
     
-    [HttpGet("{meta}")]
-    public async Task<IActionResult> GetTransactionByMetaAsync(string meta)
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetTransactionByMetaAsync(int id)
     {
-        var transactions = await _transactionRepository.GetTransactionByMetaAsync(meta);
+        var transactions = await _transactionRepository.GetTransactionByMetaAsync(id);
         return Ok(transactions);
     }
 

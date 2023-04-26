@@ -4,6 +4,7 @@ namespace MangaFigure.DTOs
 {
     public class MyTransactionDto
     {
+        public int? Id { get; set; }
         public int? Customer { get; set; }
         public string? CustomerName { get; set; }
         public int? Employee { get; set; }

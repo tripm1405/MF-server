@@ -20,12 +20,12 @@ public class TransactionRepository
         return data;
     }
     
-    public async Task<Transaction> GetTransactionByMetaAsync(string meta)
+    public async Task<Transaction> GetTransactionByMetaAsync(int id)
     {
         var qb = _dbContext.Transactions.AsQueryable()
             .Include(e => e.TransactionDetails)
             .Include(e => e.StatusNavigation)
-            .Where(e => e.Meta == meta);
+            .Where(e => e.Id == id);
         var res = await qb.AsNoTracking().FirstOrDefaultAsync();
         return res;
     }
@@ -97,6 +97,7 @@ public class TransactionRepository
                    orderby transaction.CreateAt descending
                    select new MyTransactionDto()
                    {
+                        Id = transaction.Id,
                         Customer = transaction.Customer,
                         CustomerName = customer.Name,
                         Employee = transaction.Employee,
