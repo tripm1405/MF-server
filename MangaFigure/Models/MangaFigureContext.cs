@@ -438,7 +438,7 @@ namespace MangaFigure.Models
                 entity.Property(e => e.Order).HasColumnName("order");
 
                 entity.Property(e => e.Price).HasColumnName("price");
-                
+
                 entity.Property(e => e.Type).HasColumnName("type");
 
                 entity.HasOne(d => d.CatalogNavigation)
@@ -578,6 +578,8 @@ namespace MangaFigure.Models
 
                 entity.Property(e => e.Order).HasColumnName("order");
 
+                entity.Property(e => e.Price).HasColumnName("price");
+
                 entity.Property(e => e.Rate).HasColumnName("rate");
 
                 entity.Property(e => e.Status)
@@ -610,6 +612,8 @@ namespace MangaFigure.Models
                     .HasColumnName("active")
                     .HasDefaultValueSql("((1))");
 
+                entity.Property(e => e.Amount).HasColumnName("amount");
+
                 entity.Property(e => e.CreateAt)
                     .HasColumnType("datetime")
                     .HasColumnName("create_at")
@@ -622,7 +626,7 @@ namespace MangaFigure.Models
 
                 entity.Property(e => e.Order).HasColumnName("order");
 
-                entity.Property(e => e.Amount).HasColumnName("amount");
+                entity.Property(e => e.Price).HasColumnName("price");
 
                 entity.Property(e => e.Product).HasColumnName("product");
 

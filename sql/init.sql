@@ -154,6 +154,7 @@ CREATE TABLE [Transaction] (
 	[active] BIT DEFAULT 1,
 	[order] INT,
 	[create_at] DATETIME DEFAULT GETDATE(),
+	[price] INT,
 
 	PRIMARY KEY ([id])
 )
@@ -170,6 +171,7 @@ CREATE TABLE [TransactionDetail] (
 	[active] BIT DEFAULT 1,
 	[order] INT,
 	[create_at] DATETIME DEFAULT GETDATE(),
+	[price] INT,
 
 	PRIMARY KEY ([id])
 )
@@ -707,27 +709,27 @@ INSERT INTO [TransactionStatus] ([content]) VALUES
 (N'Hủy')
 GO
 
-INSERT INTO [Transaction] ([customer], [employee],[status],[rate]) VALUES 
-(1,1,1,5),
-(2,1,1,4),
-(3,1,2,5),
-(1,2,1,4),
-(2,2,1,5),
-(3,2,1,4),
-(3,3,2,5),
-(1,3,1,4),
-(3,1,3,5)
+INSERT INTO [Transaction] ([customer], [employee],[status],[rate], [price]) VALUES 
+(1,1,1,5, 230000),
+(2,1,1,4, 220000),
+(3,1,2,5, 210000),
+(1,2,1,4, 120000),
+(2,2,1,5, 231000),
+(3,2,1,4, 343000),
+(3,3,2,5, 123000),
+(1,3,1,4, 212000),
+(3,1,3,5, 134000)
 GO
 
-INSERT INTO [TransactionDetail] ([transaction], [product], [amount]) VALUES 
-(1,1,1),
-(2,1,1),
-(3,2,2),
-(4,1,2),
-(1,5,3),
-(3,4,3),
-(3,5,4),
-(7,3,4)
+INSERT INTO [TransactionDetail] ([transaction], [product], [amount], [price]) VALUES 
+(1,1,1, 230000),
+(2,1,1, 210000),
+(3,2,2, 220000),
+(4,1,2, 260000),
+(1,5,3, 270000),
+(3,4,3, 290000),
+(3,5,4, 200000),
+(7,3,4, 210000)
 GO
 
 INSERT INTO [ProductReview] ([product], [customer],[content],[rate]) VALUES 
