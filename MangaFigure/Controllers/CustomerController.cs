@@ -23,6 +23,13 @@ public class CustomerController : ControllerBase
         var authors = await _customerRepository.GetCustomerAsync();
         return Ok(authors);
     }
+    
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetCustomerByIdAsync(int id)
+    {
+        var authors = await _customerRepository.GetCustomerByIdAsync(id);
+        return Ok(authors);
+    }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewCustomerAsync([FromBody] CustomerDto customerModel)

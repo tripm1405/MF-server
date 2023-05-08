@@ -31,6 +31,7 @@ public class TransactionDetailRepository
             Active = transactionDetailModel.Active,
             Order = transactionDetailModel.Order,
             CreateAt = transactionDetailModel.CreateAt,
+            Price = transactionDetailModel.Price,
         };
         await _dbContext.TransactionDetails.AddAsync(newTransactionDetail);
         await _dbContext.SaveChangesAsync();
@@ -52,6 +53,7 @@ public class TransactionDetailRepository
         transactionDetail.Amount = transactionDetailModel.Amount;
         transactionDetail.Order = transactionDetailModel.Order;
         transactionDetail.CreateAt = transactionDetailModel.CreateAt;
+        transactionDetail.Price = transactionDetailModel.Price;
 
         _dbContext.TransactionDetails.Update(transactionDetail);
 

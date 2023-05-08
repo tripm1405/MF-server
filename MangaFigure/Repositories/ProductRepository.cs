@@ -78,6 +78,10 @@ public class ProductRepository
         {
             newProduct.Catalog = Product.Catalog;
         }
+        if (Product.Amount != null)
+        {
+            newProduct.Amount = Product.Amount;
+        }
         if (Product.Price != null)
         {
             newProduct.Price = Product.Price;

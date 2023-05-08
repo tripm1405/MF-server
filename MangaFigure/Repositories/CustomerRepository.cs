@@ -18,6 +18,12 @@ public class CustomerRepository
         var data = await _dbContext.Customers.AsQueryable().AsNoTracking().ToListAsync();
         return data;
     }
+    
+    public async Task<Customer> GetCustomerByIdAsync(int id)
+    {
+        var data = await _dbContext.Customers.AsQueryable().Where(e => e.Id == id).AsNoTracking().FirstOrDefaultAsync();
+        return data;
+    }
 
     public async Task<Customer> AddCustomerAsync(CustomerDto customerModel)
     {

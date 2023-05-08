@@ -43,6 +43,7 @@ public class TransactionRepository
             Active = transactionModel.Active,
             Order = transactionModel.Order,
             CreateAt = transactionModel.CreateAt,
+            Price = transactionModel.Price,
         };
         await _dbContext.Transactions.AddAsync(newTransaction);
         await _dbContext.SaveChangesAsync();
@@ -65,6 +66,7 @@ public class TransactionRepository
         transaction.Active = transactionModel.Active;
         transaction.Order = transactionModel.Order;
         transaction.CreateAt = transactionModel.CreateAt;
+        transaction.Price = transactionModel.Price;
 
         _dbContext.Transactions.Update(transaction);
 
@@ -109,6 +111,7 @@ public class TransactionRepository
                         Active = transaction.Active,
                         Order = transaction.Order,
                         CreateAt = transaction.CreateAt,
+                        Price = transaction.Price
                    };
 
         return await data.AsQueryable().AsNoTracking().ToListAsync();

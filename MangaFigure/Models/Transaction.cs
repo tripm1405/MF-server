@@ -19,6 +19,7 @@ namespace MangaFigure.Models
         public bool? Active { get; set; }
         public int? Order { get; set; }
         public DateTime? CreateAt { get; set; }
+        public int? Price { get; set; }
 
         public virtual Customer? CustomerNavigation { get; set; }
         public virtual Employee? EmployeeNavigation { get; set; }

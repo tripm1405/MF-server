@@ -8,6 +8,7 @@
         public int? Amount {get; set;}
         public bool? Active { get; set; }
         public int? Order { get; set; }
+        public int? Price { get; set; }
         public DateTime? CreateAt { get; set; }
     }
 }

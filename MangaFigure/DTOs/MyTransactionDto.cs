@@ -16,5 +16,6 @@ namespace MangaFigure.DTOs
         public bool? Active { get; set; }
         public int? Order { get; set; }
         public DateTime? CreateAt { get; set; }
+        public int? Price { get; set; }
     }
 }
