@@ -31,6 +31,7 @@ public class CartRepository
 
         return await data
             .Include(t => t.ProductNavigation)
+                .ThenInclude(t1 => t1.ImageNavigation)
             .AsQueryable()
             .AsNoTracking()
             .ToListAsync();
