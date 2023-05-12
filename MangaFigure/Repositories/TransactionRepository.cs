@@ -89,7 +89,7 @@ public class TransactionRepository
         }
     }
 
-    public async Task<Transaction> UpdateTransactionAsync(int transactionId, TransactionDto transactionModel)
+    public async Task<Transaction> UpdateTransactionAsync(int transactionId, TransactionDto body)
     {
         var transaction = await _dbContext.Transactions.FindAsync(transactionId);
 
@@ -97,16 +97,14 @@ public class TransactionRepository
         {
             throw new Exception($"Not found author with id: {transactionId}");
         }
-        transaction.Employee = transactionModel.Employee;
-        transaction.Rate = transactionModel.Rate;
-        transaction.Status = transactionModel.Status;
-        transaction.Customer = transactionModel.Customer;
-        transaction.Meta = transactionModel.Meta;
-        transaction.Active = transactionModel.Active;
-        transaction.Order = transactionModel.Order;
-        transaction.CreateAt = transactionModel.CreateAt;
-        transaction.Price = transactionModel.Price;
-        transaction.Address = transactionModel.Address;
+
+        if (body.Employee != null) transaction.Employee = body.Employee;
+        if (body.Rate != null) transaction.Rate = body.Rate;
+        if (body.Status != null) transaction.Status = body.Status;
+        if (body.Active != null) transaction.Active = body.Active;
+        if (body.Order != null) transaction.Order = body.Order;
+        if (body.Price != null) transaction.Price = body.Price;
+        if (body.Address != null) transaction.Address = body.Address;
 
 
         _dbContext.Transactions.Update(transaction);
