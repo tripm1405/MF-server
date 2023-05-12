@@ -47,7 +47,8 @@ public class AccountRepository
                     Id = 0,
                     Username = body.Username,
                     Email = "",
-                    Role = 0
+                    Role = 0,
+                    Address = ""
                 }));
             }
         }
@@ -62,7 +63,8 @@ public class AccountRepository
                     Id = employeeAccount.Id,
                     Username = body.Username,
                     Email = employeeAccount.Email,
-                    Role = 1
+                    Role = 1,
+                    Address = employeeAccount.Address
                 }));
             }
         }
@@ -77,7 +79,8 @@ public class AccountRepository
                     Id = customerAccount.Id,
                     Username = body.Username,
                     Email = customerAccount.Email,
-                    Role = 2
+                    Role = 2,
+                    Address = customerAccount.Address
                 }));
             }
         }
@@ -112,7 +115,8 @@ public class AccountRepository
                 Id = int.Parse(claims.First(x => x.Type == "Id").Value),
                 Username = claims.First(x => x.Type == "Username").Value,
                 Email = claims.First(x => x.Type == "Email").Value,
-                Role = int.Parse(claims.First(x => x.Type == "Role").Value)
+                Role = int.Parse(claims.First(x => x.Type == "Role").Value),
+                Address = claims.First(x => x.Type == "Address").Value
             });
         }
         catch
@@ -131,7 +135,8 @@ public class AccountRepository
             new Claim("id", data.Id.ToString()),
             new Claim("username", data.Username),
             new Claim("email", data.Email),
-            new Claim("role", data.Role.ToString())
+            new Claim("role", data.Role.ToString()),
+            new Claim("address", data.Address)
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
@@ -153,4 +158,5 @@ public class AccountData
     public string? Username { get; set; }
     public string? Email { get; set; }
     public int? Role { get; set; }
+    public string Address { get; set; }
 }
