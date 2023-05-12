@@ -43,6 +43,7 @@ public class CustomerController : ControllerBase
     {
         var data = await _customerRepository.UpdateCustomerAsync(id,customerModel);
         return Ok(data);
+        return null;
     }
 
     [HttpDelete("remove/{id}")]

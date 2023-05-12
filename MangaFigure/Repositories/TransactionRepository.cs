@@ -46,6 +46,7 @@ public class TransactionRepository
                 Customer = body.Customer,
                 Status = 1,
                 Address = body.Address,
+                Fee = body.Fee
             };
 
             if (body.Products == null)
@@ -110,6 +111,7 @@ public class TransactionRepository
         if (body.Order != null) transaction.Order = body.Order;
         if (body.Price != null) transaction.Price = body.Price;
         if (body.Address != null) transaction.Address = body.Address;
+        if (body.Fee != null) transaction.Fee = body.Fee;
 
 
         _dbContext.Transactions.Update(transaction);
