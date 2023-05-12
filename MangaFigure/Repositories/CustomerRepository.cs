@@ -55,7 +55,6 @@ public class CustomerRepository
             throw new Exception($"Not found author with id: {customerId}");
         }
         customer.Name = customerModel.Name;
-        customer.Password = customerModel.Password;
         customer.Address = customerModel.Address;
         customer.Email = customerModel.Email;
         customer.Birthday = customerModel.Birthday;

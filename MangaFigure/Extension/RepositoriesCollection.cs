@@ -7,23 +7,23 @@ public static class RepositoriesCollection
 {
     public static void AddRepositories(this IServiceCollection serviceCollection)
     {
-        serviceCollection.AddTransient<AccountRepository, AccountRepository>();
-        serviceCollection.AddTransient<NavbarRepository, NavbarRepository>();
-        serviceCollection.AddTransient<SiteRepository, SiteRepository>();
-        serviceCollection.AddTransient<CustomerRepository, CustomerRepository>();
-        serviceCollection.AddTransient<CartRepository, CartRepository>();
-        serviceCollection.AddTransient<AnnouncementRepository, AnnouncementRepository>();
-        serviceCollection.AddTransient<EmployeeRepository, EmployeeRepository>();
-        serviceCollection.AddTransient<ContactRepository, ContactRepository>();
-        serviceCollection.AddTransient<ProductImageRepository, ProductImageRepository>();
-        serviceCollection.AddTransient<ProductRepository, ProductRepository>();
-        serviceCollection.AddTransient<ProductReviewRepository, ProductReviewRepository>();
-        serviceCollection.AddTransient<TransactionRepository, TransactionRepository>();
-        serviceCollection.AddTransient<TransactionDetailRepository, TransactionDetailRepository>();
-        serviceCollection.AddTransient<TransactionStatusRepository, TransactionStatusRepository>();
-        serviceCollection.AddTransient<VoucherRepository, VoucherRepository>();
-        serviceCollection.AddTransient<FileRepository, FileRepository>();
-        serviceCollection.AddTransient<CatalogRepository, CatalogRepository>();
-        serviceCollection.AddTransient<TestRepository, TestRepository>();
+        serviceCollection.AddScoped<AccountRepository, AccountRepository>();
+        serviceCollection.AddScoped<NavbarRepository, NavbarRepository>();
+        serviceCollection.AddScoped<SiteRepository, SiteRepository>();
+        serviceCollection.AddScoped<CustomerRepository, CustomerRepository>();
+        serviceCollection.AddScoped<CartRepository, CartRepository>();
+        serviceCollection.AddScoped<AnnouncementRepository, AnnouncementRepository>();
+        serviceCollection.AddScoped<EmployeeRepository, EmployeeRepository>();
+        serviceCollection.AddScoped<ContactRepository, ContactRepository>();
+        serviceCollection.AddScoped<ProductImageRepository, ProductImageRepository>();
+        serviceCollection.AddScoped<ProductRepository, ProductRepository>();
+        serviceCollection.AddScoped<ProductReviewRepository, ProductReviewRepository>();
+        serviceCollection.AddScoped<TransactionRepository, TransactionRepository>();
+        serviceCollection.AddScoped<TransactionDetailRepository, TransactionDetailRepository>();
+        serviceCollection.AddScoped<TransactionStatusRepository, TransactionStatusRepository>();
+        serviceCollection.AddScoped<VoucherRepository, VoucherRepository>();
+        serviceCollection.AddScoped<FileRepository, FileRepository>();
+        serviceCollection.AddScoped<CatalogRepository, CatalogRepository>();
+        serviceCollection.AddScoped<TestRepository, TestRepository>();
     }
 }
