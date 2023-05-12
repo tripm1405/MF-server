@@ -20,7 +20,7 @@ namespace MangaFigure.Models
         public int? Order { get; set; }
         public DateTime? CreateAt { get; set; }
         public int? Price { get; set; }
-
+        public string? Address { get; set; }
         public virtual Customer? CustomerNavigation { get; set; }
         public virtual Employee? EmployeeNavigation { get; set; }
         public virtual TransactionStatus? StatusNavigation { get; set; }

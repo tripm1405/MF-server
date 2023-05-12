@@ -155,6 +155,7 @@ CREATE TABLE [Transaction] (
 	[order] INT,
 	[create_at] DATETIME DEFAULT GETDATE(),
 	[price] INT,
+	[address] NVARCHAR(256),
 
 	PRIMARY KEY ([id])
 )
@@ -709,16 +710,16 @@ INSERT INTO [TransactionStatus] ([content]) VALUES
 (N'Hủy')
 GO
 
-INSERT INTO [Transaction] ([customer], [employee],[status],[rate], [price]) VALUES 
-(1,1,1,5, 230000),
-(2,1,1,4, 220000),
-(3,1,2,5, 210000),
-(1,2,1,4, 120000),
-(2,2,1,5, 231000),
-(3,2,1,4, 343000),
-(3,3,2,5, 123000),
-(1,3,1,4, 212000),
-(3,1,3,5, 134000)
+INSERT INTO [Transaction] ([customer], [employee],[status],[rate], [price], [address]) VALUES 
+(1,1,1,5, 230000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 3, Hồ Chí Minh'),
+(2,1,1,4, 220000, N'59 Pasteur, Phường Bến Nghé, Quận 1, Hồ Chí Minh'),
+(3,1,2,5, 210000, N'47 Đường Nguyễn Trãi, Phường Bến Thành, Quận 1, Hồ Chí Minh'),
+(1,2,1,4, 120000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 3, Hồ Chí Minh'),
+(2,2,1,5, 231000, N'59 Pasteur, Phường Bến Nghé, Quận 1, Hồ Chí Minh'),
+(3,2,1,4, 343000, N'47 Đường Nguyễn Trãi, Phường Bến Thành, Quận 1, Hồ Chí Minh'),
+(3,3,2,5, 123000, N'47 Đường Nguyễn Trãi, Phường Bến Thành, Quận 1, Hồ Chí Minh'),
+(1,3,1,4, 212000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 3, Hồ Chí Minh'),
+(3,1,3,5, 134000, N'47 Đường Nguyễn Trãi, Phường Bến Thành, Quận 1, Hồ Chí Minh')
 GO
 
 INSERT INTO [TransactionDetail] ([transaction], [product], [amount], [price]) VALUES 
