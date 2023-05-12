@@ -20,28 +20,28 @@ public class TransactionStatusController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetTransactionStatusAsync()
     {
-        var authors = await _transactionStatusRepository.GetTransactionStatusAsync();
-        return Ok(authors);
+        var data = await _transactionStatusRepository.GetTransactionStatusAsync();
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewTransactionStatusAsync([FromBody] TransactionStatusDto transactionStatusModel)
     {
-        var authors = await _transactionStatusRepository.AddTransactionStatusAsync(transactionStatusModel);
-        return Ok(authors);
+        var data = await _transactionStatusRepository.AddTransactionStatusAsync(transactionStatusModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateTransactionStatusAsync(int id, [FromBody] TransactionStatusDto transactionStatusModel)
     {
-        var authors = await _transactionStatusRepository.UpdateTransactionStatusAsync(id,transactionStatusModel);
-        return Ok(authors);
+        var data = await _transactionStatusRepository.UpdateTransactionStatusAsync(id,transactionStatusModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveTransactionStatusAsync(int id)
     {
-        var authors = await _transactionStatusRepository.RemoveTransactionStatusAsync(id);
-        return Ok(authors);
+        var data = await _transactionStatusRepository.RemoveTransactionStatusAsync(id);
+        return Ok(data);
     }
 }

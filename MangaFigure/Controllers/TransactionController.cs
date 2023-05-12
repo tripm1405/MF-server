@@ -20,8 +20,8 @@ public class TransactionController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetTransactionAsync()
     {
-        var authors = await _transactionRepository.GetTransactionAsync();
-        return Ok(authors);
+        var data = await _transactionRepository.GetTransactionAsync();
+        return Ok(data);
     }
     
     [HttpGet("{id}")]
@@ -34,22 +34,22 @@ public class TransactionController : ControllerBase
     [HttpPost("create")]
     public async Task<IActionResult> AddNewTransactionAsync([FromBody] TransactionDto transactionModel)
     {
-        var authors = await _transactionRepository.AddTransactionAsync(transactionModel);
-        return Ok(authors);
+        var data = await _transactionRepository.AddTransactionAsync(transactionModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateTransactionAsync(int id, [FromBody] TransactionDto transactionModel)
     {
-        var authors = await _transactionRepository.UpdateTransactionAsync(id,transactionModel);
-        return Ok(authors);
+        var data = await _transactionRepository.UpdateTransactionAsync(id,transactionModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveTransactionAsync(int id)
     {
-        var authors = await _transactionRepository.RemoveTransactionAsync(id);
-        return Ok(authors);
+        var data = await _transactionRepository.RemoveTransactionAsync(id);
+        return Ok(data);
     }
 
     [HttpPost("")]

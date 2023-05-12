@@ -20,28 +20,28 @@ public class ContactController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetContactAsync()
     {
-        var authors = await _contactRepository.GetContactAsync();
-        return Ok(authors);
+        var data = await _contactRepository.GetContactAsync();
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewContactAsync([FromBody] ContactDto contactModel)
     {
-        var authors = await _contactRepository.AddContactAsync(contactModel);
-        return Ok(authors);
+        var data = await _contactRepository.AddContactAsync(contactModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateContactAsync(int id, [FromBody] ContactDto contactModel)
     {
-        var authors = await _contactRepository.UpdateContactAsync(id,contactModel);
-        return Ok(authors);
+        var data = await _contactRepository.UpdateContactAsync(id,contactModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveContactAsync(int id)
     {
-        var authors = await _contactRepository.RemoveContactAsync(id);
-        return Ok(authors);
+        var data = await _contactRepository.RemoveContactAsync(id);
+        return Ok(data);
     }
 }

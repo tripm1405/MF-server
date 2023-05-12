@@ -20,8 +20,8 @@ public class ProductImageController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetProductImageAsync()
     {
-        var authors = await _productImageRepository.GetProductImageAsync();
-        return Ok(authors);
+        var data = await _productImageRepository.GetProductImageAsync();
+        return Ok(data);
     }
 
     [HttpPost("upload")]
@@ -38,21 +38,21 @@ public class ProductImageController : ControllerBase
     [HttpPost("create")]
     public async Task<IActionResult> AddNewProductImageAsync([FromBody] ProductImageDto productImageModel)
     {
-        var authors = await _productImageRepository.AddProductImageAsync(productImageModel);
-        return Ok(authors);
+        var data = await _productImageRepository.AddProductImageAsync(productImageModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateProductImageAsync(int id, [FromBody] ProductImageDto productImageModel)
     {
-        var authors = await _productImageRepository.UpdateProductImageAsync(id,productImageModel);
-        return Ok(authors);
+        var data = await _productImageRepository.UpdateProductImageAsync(id,productImageModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveProductImageAsync(int id)
     {
-        var authors = await _productImageRepository.RemoveProductImageAsync(id);
-        return Ok(authors);
+        var data = await _productImageRepository.RemoveProductImageAsync(id);
+        return Ok(data);
     }
 }

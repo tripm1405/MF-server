@@ -20,29 +20,29 @@ public class EmployeeController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetEmployeeAsync()
     {
-        var authors = await _employeeRepository.GetEmployeeAsync();
-        return Ok(authors);
+        var data = await _employeeRepository.GetEmployeeAsync();
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewEmployeeAsync([FromBody] EmployeeDto employeeModel)
     {
-        var authors = await _employeeRepository.AddEmployeeAsync(employeeModel);
-        return Ok(authors);
+        var data = await _employeeRepository.AddEmployeeAsync(employeeModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateEmployeeAsync(int id, [FromBody] EmployeeDto employeeModel)
     {
-        var authors = await _employeeRepository.UpdateEmployeeAsync(id,employeeModel);
-        return Ok(authors);
+        var data = await _employeeRepository.UpdateEmployeeAsync(id,employeeModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveEmployeeAsync(int id)
     {
-        var authors = await _employeeRepository.RemoveEmployeeAsync(id);
-        return Ok(authors);
+        var data = await _employeeRepository.RemoveEmployeeAsync(id);
+        return Ok(data);
     }
 
     [HttpPost("")]

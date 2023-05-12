@@ -20,28 +20,28 @@ public class AnnouncementController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetAnnouncementAsync()
     {
-        var authors = await _announcementRepository.GetAnnouncementAsync();
-        return Ok(authors);
+        var data = await _announcementRepository.GetAnnouncementAsync();
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewAnnouncementAsync([FromBody] AnnouncementDto announcementModel)
     {
-        var authors = await _announcementRepository.AddAnnouncementAsync(announcementModel);
-        return Ok(authors);
+        var data = await _announcementRepository.AddAnnouncementAsync(announcementModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateAnnouncementAsync(int id, [FromBody] AnnouncementDto announcementModel)
     {
-        var authors = await _announcementRepository.UpdateAnnouncementAsync(id,announcementModel);
-        return Ok(authors);
+        var data = await _announcementRepository.UpdateAnnouncementAsync(id,announcementModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveAnnouncementAsync(int id)
     {
-        var authors = await _announcementRepository.RemoveAnnouncementAsync(id);
-        return Ok(authors);
+        var data = await _announcementRepository.RemoveAnnouncementAsync(id);
+        return Ok(data);
     }
 }

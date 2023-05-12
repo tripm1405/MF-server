@@ -20,28 +20,28 @@ public class TransactionDetailController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetTransactionDetailAsync()
     {
-        var authors = await _transactionDetailRepository.GetTransactionDetailAsync();
-        return Ok(authors);
+        var data = await _transactionDetailRepository.GetTransactionDetailAsync();
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewTransactionDetailAsync([FromBody] TransactionDetailDto transactionDetailModel)
     {
-        var authors = await _transactionDetailRepository.AddTransactionDetailAsync(transactionDetailModel);
-        return Ok(authors);
+        var data = await _transactionDetailRepository.AddTransactionDetailAsync(transactionDetailModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateTransactionDetailAsync(int id, [FromBody] TransactionDetailDto transactionDetailModel)
     {
-        var authors = await _transactionDetailRepository.UpdateTransactionDetailAsync(id,transactionDetailModel);
-        return Ok(authors);
+        var data = await _transactionDetailRepository.UpdateTransactionDetailAsync(id,transactionDetailModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveTransactionDetailAsync(int id)
     {
-        var authors = await _transactionDetailRepository.RemoveTransactionDetailAsync(id);
-        return Ok(authors);
+        var data = await _transactionDetailRepository.RemoveTransactionDetailAsync(id);
+        return Ok(data);
     }
 }

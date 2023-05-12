@@ -20,6 +20,22 @@ public class CartRepository
         return data;
     }
 
+    public async Task<List<Cart>> GetCartWithBodyAsync(CartsWithBodyReqDto body)
+    {
+        IQueryable<Cart> data = _dbContext.Carts;
+
+        if (body.Customer != null)
+        {
+            data = data.Where(t => t.Customer == body.Customer);
+        }
+
+        return await data
+            .Include(t => t.ProductNavigation)
+            .AsQueryable()
+            .AsNoTracking()
+            .ToListAsync();
+    }
+
     public async Task<Cart> AddCartAsync(CartDto cartModel)
     {
         var newCart = new Cart()

@@ -15,8 +15,8 @@ public class NavbarRepository
     
     public async Task<List<Navbar>> GetAllNavrbarsAsync()
     {
-        var authors = await _dbContext.Navbars.AsQueryable().AsNoTracking().ToListAsync();
-        return authors;
+        var data = await _dbContext.Navbars.AsQueryable().AsNoTracking().ToListAsync();
+        return data;
     }
 
     public async Task<Navbar> AddNavbarAsync(NavbarDto navbarModel)

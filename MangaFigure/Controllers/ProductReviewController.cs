@@ -20,28 +20,28 @@ public class ProductReviewController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetProductReviewAsync()
     {
-        var authors = await _productReviewRepository.GetProductReviewAsync();
-        return Ok(authors);
+        var data = await _productReviewRepository.GetProductReviewAsync();
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewProductReviewAsync([FromBody] ProductReviewDto productReviewModel)
     {
-        var authors = await _productReviewRepository.AddProductReviewAsync(productReviewModel);
-        return Ok(authors);
+        var data = await _productReviewRepository.AddProductReviewAsync(productReviewModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateProductReviewAsync(int id, [FromBody] ProductReviewDto productReviewModel)
     {
-        var authors = await _productReviewRepository.UpdateProductReviewAsync(id,productReviewModel);
-        return Ok(authors);
+        var data = await _productReviewRepository.UpdateProductReviewAsync(id,productReviewModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveProductReviewAsync(int id)
     {
-        var authors = await _productReviewRepository.RemoveProductReviewAsync(id);
-        return Ok(authors);
+        var data = await _productReviewRepository.RemoveProductReviewAsync(id);
+        return Ok(data);
     }
 }

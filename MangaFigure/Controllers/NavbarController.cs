@@ -19,8 +19,8 @@ public class NavbarController : ControllerBase
     [HttpGet("")] 
     public async Task<IActionResult> GetNavbarAuthor()
     {
-        var authors = await _navbarRepository.GetAllNavrbarsAsync();
-        return Ok(authors); 
+        var data = await _navbarRepository.GetAllNavrbarsAsync();
+        return Ok(data); 
     }
     
     [HttpPost("create")]

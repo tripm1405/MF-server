@@ -20,28 +20,28 @@ public class SiteController : ControllerBase
     [HttpPost("customer/sign-in")]
     public async Task<IActionResult> PostSignInByCustomerAsync([FromBody] Customer customer)
     {
-        var authors = await _siteRepository.PostSignInByCustomerAsync(customer);
-        return Ok(authors);
+        var data = await _siteRepository.PostSignInByCustomerAsync(customer);
+        return Ok(data);
     }
     [HttpPost("customer/sign-up")]
     public async Task<IActionResult> PostSignUpByCustomerAsync([FromBody] CustomerDto customer)
     {
-        var authors = await _siteRepository.PostSignUpByCustomerAsync(customer);
-        return Ok(authors);
+        var data = await _siteRepository.PostSignUpByCustomerAsync(customer);
+        return Ok(data);
     }
 
     [HttpPost("employee/sign-in")]
     public async Task<IActionResult> PostSignInByEmployeeAsync([FromBody] Employee employee)
     {
-        var authors = await _siteRepository.PostSignInByEmployeeAsync(employee);
-        return Ok(authors);
+        var data = await _siteRepository.PostSignInByEmployeeAsync(employee);
+        return Ok(data);
     }
 
     [HttpGet("header/list")]
     public async Task<IActionResult> GetHeader()
     {
-        var authors = await _siteRepository.GetHeaderAsync();
-        return Ok(authors);
+        var data = await _siteRepository.GetHeaderAsync();
+        return Ok(data);
     }
 
     [HttpPost("header")]
@@ -54,50 +54,50 @@ public class SiteController : ControllerBase
     [HttpPost("header/create")]
     public async Task<IActionResult> AddNewHeaderAsync([FromBody] HeaderDto headerModel)
     {
-        var authors = await _siteRepository.AddHeaderAsync(headerModel);
-        return Ok(authors);
+        var data = await _siteRepository.AddHeaderAsync(headerModel);
+        return Ok(data);
     }
 
     [HttpPut("header/update/{id}")]
     public async Task<IActionResult> UpdateHeaderAsync(int id, [FromBody] HeaderDto headerModel)
     {
-        var authors = await _siteRepository.UpdateHeaderAsync(id, headerModel);
-        return Ok(authors);
+        var data = await _siteRepository.UpdateHeaderAsync(id, headerModel);
+        return Ok(data);
     }
 
     [HttpDelete("header/remove/{id}")]
     public async Task<IActionResult> RemoveHeaderAsync(int id)
     {
-        var authors = await _siteRepository.RemoveHeaderAsync(id);
-        return Ok(authors);
+        var data = await _siteRepository.RemoveHeaderAsync(id);
+        return Ok(data);
     }
 
     [HttpGet("slideShow/list")]
     public async Task<IActionResult> GetSlideShow()
     {
-        var authors = await _siteRepository.GetSlideShowAsync();
-        return Ok(authors);
+        var data = await _siteRepository.GetSlideShowAsync();
+        return Ok(data);
     }
 
     [HttpPost("slideShow/create")]
     public async Task<IActionResult> AddNewSlideShowAsync([FromBody] SlideShowDto slideShowModel)
     {
-        var authors = await _siteRepository.AddSlideShowAsync(slideShowModel);
-        return Ok(authors);
+        var data = await _siteRepository.AddSlideShowAsync(slideShowModel);
+        return Ok(data);
     }
 
     [HttpPut("slideShow/update/{id}")]
     public async Task<IActionResult> UpdateSlideShowAsync(int id, [FromBody] SlideShowDto slideShowModel)
     {
-        var authors = await _siteRepository.UpdateSlideShowAsync(id, slideShowModel);
-        return Ok(authors);
+        var data = await _siteRepository.UpdateSlideShowAsync(id, slideShowModel);
+        return Ok(data);
     }
 
     [HttpDelete("slideShow/remove/{id}")]
     public async Task<IActionResult> RemoveSlideShowAsync(int id)
     {
-        var authors = await _siteRepository.RemoveSlideShowAsync(id);
-        return Ok(authors);
+        var data = await _siteRepository.RemoveSlideShowAsync(id);
+        return Ok(data);
     }
 
     [HttpGet("catalog/list")]
@@ -124,22 +124,22 @@ public class SiteController : ControllerBase
     [HttpPut("catalog/update/{id}")]
     public async Task<IActionResult> UpdateCatalogAsync(int id, [FromBody] CatalogDto catalogModel)
     {
-        var authors = await _siteRepository.UpdateCatalogAsync(id, catalogModel);
-        return Ok(authors);
+        var data = await _siteRepository.UpdateCatalogAsync(id, catalogModel);
+        return Ok(data);
     }
 
     [HttpDelete("catalog/remove/{id}")]
     public async Task<IActionResult> RemoveCatalogAsync(int id)
     {
-        var authors = await _siteRepository.RemoveCatalogAsync(id);
-        return Ok(authors);
+        var data = await _siteRepository.RemoveCatalogAsync(id);
+        return Ok(data);
     }
 
     [HttpGet("footer/list")]
     public async Task<IActionResult> GetFooter()
     {
-        var authors = await _siteRepository.GetFooterWithTypeAsync();
-        return Ok(authors);
+        var data = await _siteRepository.GetFooterWithTypeAsync();
+        return Ok(data);
     }
 
     [HttpPost("footer/create")]
@@ -152,15 +152,15 @@ public class SiteController : ControllerBase
     [HttpPut("footer/update/{id}")]
     public async Task<IActionResult> UpdateFooterAsync(int id, [FromBody] FooterDto footerModel)
     {
-        var authors = await _siteRepository.UpdateFooterAsync(id, footerModel);
-        return Ok(authors);
+        var data = await _siteRepository.UpdateFooterAsync(id, footerModel);
+        return Ok(data);
     }
 
     [HttpDelete("footer/remove/{id}")]
     public async Task<IActionResult> RemoveFooterAsync(int id)
     {
-        var authors = await _siteRepository.RemoveFooterAsync(id);
-        return Ok(authors);
+        var data = await _siteRepository.RemoveFooterAsync(id);
+        return Ok(data);
     }
 
     [HttpGet("logo")]

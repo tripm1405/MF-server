@@ -20,28 +20,28 @@ public class VoucherController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetVoucherAsync()
     {
-        var authors = await _voucherRepository.GetVoucherAsync();
-        return Ok(authors);
+        var data = await _voucherRepository.GetVoucherAsync();
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewVoucherAsync([FromBody] VoucherDto voucherModel)
     {
-        var authors = await _voucherRepository.AddVoucherAsync(voucherModel);
-        return Ok(authors);
+        var data = await _voucherRepository.AddVoucherAsync(voucherModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateVoucherAsync(int id, [FromBody] VoucherDto voucherModel)
     {
-        var authors = await _voucherRepository.UpdateVoucherAsync(id,voucherModel);
-        return Ok(authors);
+        var data = await _voucherRepository.UpdateVoucherAsync(id,voucherModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveVoucherAsync(int id)
     {
-        var authors = await _voucherRepository.RemoveVoucherAsync(id);
-        return Ok(authors);
+        var data = await _voucherRepository.RemoveVoucherAsync(id);
+        return Ok(data);
     }
 }

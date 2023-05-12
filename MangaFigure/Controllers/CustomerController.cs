@@ -20,36 +20,36 @@ public class CustomerController : ControllerBase
     [HttpGet("list")]
     public async Task<IActionResult> GetCustomerAsync()
     {
-        var authors = await _customerRepository.GetCustomerAsync();
-        return Ok(authors);
+        var data = await _customerRepository.GetCustomerAsync();
+        return Ok(data);
     }
     
     [HttpGet("{id}")]
     public async Task<IActionResult> GetCustomerByIdAsync(int id)
     {
-        var authors = await _customerRepository.GetCustomerByIdAsync(id);
-        return Ok(authors);
+        var data = await _customerRepository.GetCustomerByIdAsync(id);
+        return Ok(data);
     }
 
     [HttpPost("create")]
     public async Task<IActionResult> AddNewCustomerAsync([FromBody] CustomerDto customerModel)
     {
-        var authors = await _customerRepository.AddCustomerAsync(customerModel);
-        return Ok(authors);
+        var data = await _customerRepository.AddCustomerAsync(customerModel);
+        return Ok(data);
     }
 
     [HttpPut("update/{id}")]
     public async Task<IActionResult> UpdateCustomerAsync(int id, [FromBody] CustomerDto customerModel)
     {
-        var authors = await _customerRepository.UpdateCustomerAsync(id,customerModel);
-        return Ok(authors);
+        var data = await _customerRepository.UpdateCustomerAsync(id,customerModel);
+        return Ok(data);
     }
 
     [HttpDelete("remove/{id}")]
     public async Task<IActionResult> RemoveCustomerAsync(int id)
     {
-        var authors = await _customerRepository.RemoveCustomerAsync(id);
-        return Ok(authors);
+        var data = await _customerRepository.RemoveCustomerAsync(id);
+        return Ok(data);
     }
 
     [HttpPost("")]

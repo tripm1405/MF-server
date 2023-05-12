@@ -19,7 +19,7 @@ public class TestController : ControllerBase
     [HttpGet("")] 
     public async Task<IActionResult> GetNavbarAuthor()
     {
-        var authors = await _Repository.GetTestAsync();
-        return Ok(authors); 
+        var data = await _Repository.GetTestAsync();
+        return Ok(data); 
     }
 }
