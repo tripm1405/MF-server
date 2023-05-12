@@ -37,16 +37,25 @@ public class CartRepository
             .ToListAsync();
     }
 
-    public async Task<Cart> AddCartAsync(CartDto cartModel)
+    public async Task<Cart> AddCartAsync(CartDto body)
     {
+        var cart = await _dbContext.Carts
+            .Where(t => t.Product == body.Product && t.Customer == body.Customer)
+            .FirstOrDefaultAsync();
+
+        if (cart != null)
+        {
+            throw new Exception("San pham da co trong gio hang");
+        }
+
         var newCart = new Cart()
         {
-            Customer = cartModel.Customer,
-            Product = cartModel.Product,
-            Meta = cartModel.Meta,
-            Active = cartModel.Active,
-            Order = cartModel.Order,
-            CreateAt = cartModel.CreateAt,
+            Customer = body.Customer,
+            Product = body.Product,
+            Meta = body.Meta,
+            Active = body.Active,
+            Order = body.Order,
+            CreateAt = body.CreateAt,
         };
         await _dbContext.Carts.AddAsync(newCart);
         await _dbContext.SaveChangesAsync();
