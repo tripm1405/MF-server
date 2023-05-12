@@ -131,33 +131,27 @@ public class TransactionRepository
         return transaction;
     }
 
-    public async Task<List<MyTransactionDto>> GetTransactionsWithBodyAsync(TransactionDto body)
+    public async Task<List<Transaction>> GetTransactionsWithBodyAsync(TransactionDto body)
     {
-        var data = from transaction in _dbContext.Transactions
-                   join customer in _dbContext.Customers on transaction.Customer equals customer.Id
-                   join employee in _dbContext.Employees on transaction.Employee equals employee.Id
-                   join transactionStatus in _dbContext.TransactionStatuses on transaction.Status equals transactionStatus.Id
-                   orderby transaction.CreateAt descending
-                   select new MyTransactionDto()
-                   {
-                        Id = transaction.Id,
-                        Customer = transaction.Customer,
-                        CustomerName = customer.Name,
-                        Employee = transaction.Employee,
-                        EmployeeName = employee.Name,
-                        Status = transaction.Status,
-                        StatusName = transactionStatus.Content,
-                        Rate = transaction.Rate,
-                        Meta = transaction.Meta,
-                        Active = transaction.Active,
-                        Order = transaction.Order,
-                        CreateAt = transaction.CreateAt,
-                        Price = transaction.Price,
-                        Address = transaction.Address,
+        IQueryable<Transaction> data = _dbContext.Transactions;
 
-                   };
+        if (body.Customer != null)
+        {
+            data = data.Where(t => t.Customer == body.Customer);
+        }
 
-        return await data.AsQueryable().AsNoTracking().ToListAsync();
+        if (body.Status != null)
+        {
+            data = data.Where(t => t.Status == body.Status);
+        }
+
+        return await data
+            .Include(t => t.CustomerNavigation)
+            .Include(t => t.EmployeeNavigation)
+            .Include(t => t.StatusNavigation)
+            .AsQueryable()
+            .AsNoTracking()
+            .ToListAsync();
     }
 
     //public async Task<Transaction> GetTransactionWithIdAsync(int id)
