@@ -23,11 +23,16 @@ public class TransactionRepository
     
     public async Task<Transaction> GetTransactionByMetaAsync(int id)
     {
-        var qb = _dbContext.Transactions.AsQueryable()
+        var qb = _dbContext.Transactions
+            .AsQueryable()
+            .Include(t => t.CustomerNavigation)
             .Include(e => e.TransactionDetails)
+                .ThenInclude(t => t.ProductNavigation)
             .Include(e => e.StatusNavigation)
             .Where(e => e.Id == id);
-        var res = await qb.AsNoTracking().FirstOrDefaultAsync();
+        var res = await qb
+            .AsNoTracking().
+            FirstOrDefaultAsync();
         return res;
     }
 
