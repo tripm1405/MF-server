@@ -31,24 +31,62 @@ public class TransactionRepository
         return res;
     }
 
-    public async Task<Transaction> AddTransactionAsync(TransactionDto transactionModel)
+    public async Task<Transaction> AddTransactionAsync(TransactionCreateReqDto body)
     {
-        var newTransaction = new Transaction()
+        try
         {
-            Customer = transactionModel.Customer,
-            Employee = transactionModel.Employee,
-            Status = transactionModel.Status,
-            Rate = transactionModel.Rate,
-            Meta = transactionModel.Meta,
-            Active = transactionModel.Active,
-            Order = transactionModel.Order,
-            CreateAt = transactionModel.CreateAt,
-            Price = transactionModel.Price,
-            Address = transactionModel.Address,
-        };
-        await _dbContext.Transactions.AddAsync(newTransaction);
-        await _dbContext.SaveChangesAsync();
-        return newTransaction;
+
+            var newTransaction = new Transaction()
+            {
+                Customer = body.Customer,
+                Status = 1,
+                Address = body.Address,
+            };
+
+            if (body.Products == null)
+            {
+                throw new Exception();
+            }
+
+            int transactionPrice = 0;
+            newTransaction.TransactionDetails = new List<TransactionDetail>();
+            foreach (var product in body.Products)
+            {
+                var productTmp = await _dbContext.Products.FirstOrDefaultAsync(t => t.Id == product.Id);
+                if (productTmp == null)
+                {
+                    throw new Exception();
+                }
+                productTmp.Amount -= product.Number;
+                _dbContext.Products.Update(productTmp);
+
+                newTransaction.TransactionDetails.Add(new TransactionDetail()
+                {
+                    Transaction = newTransaction.Id,
+                    Product = product.Id,
+                    Amount = product.Number,
+                    Price = productTmp.Price,
+                });
+
+                transactionPrice += (int)product.Number * (int)productTmp.Price;
+            }
+
+            newTransaction.Price = transactionPrice;
+
+            var carts = await _dbContext.Carts.Where(t => t.Customer == body.Customer).ToListAsync();
+
+            _dbContext.Carts.RemoveRange(carts);
+
+            await _dbContext.Transactions.AddAsync(newTransaction);
+
+            await _dbContext.SaveChangesAsync();
+
+            return newTransaction;
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 
     public async Task<Transaction> UpdateTransactionAsync(int transactionId, TransactionDto transactionModel)

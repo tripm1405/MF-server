@@ -1,4 +1,6 @@
-﻿namespace MangaFigure
+﻿using System.Linq;
+
+namespace MangaFigure
 {
     public static class Config
     {
@@ -12,5 +14,19 @@
         public static string IN_LOGOS = IN + "/wwwroot/Uploads/Logos/";
         public static string IN_SLIDESHOWS = IN + "/wwwroot/Uploads/SlideShows/";
         public static string IN_ANNOUNCES = IN + "/wwwroot/Uploads/Announces/";
+
+        public static string CreateMetaWithHash(string meta = "")
+        {
+            List<string> strs = new List<string>();
+
+            if (meta != "")
+            {
+                strs.Add(meta);
+            }
+
+            strs.Add(new Random().Next(1000, 10000).ToString());
+
+            return string.Join("-", strs);
+        }
     }
 }

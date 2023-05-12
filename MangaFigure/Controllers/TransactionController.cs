@@ -32,7 +32,7 @@ public class TransactionController : ControllerBase
     }
 
     [HttpPost("create")]
-    public async Task<IActionResult> AddNewTransactionAsync([FromBody] TransactionDto transactionModel)
+    public async Task<IActionResult> AddNewTransactionAsync([FromBody] TransactionCreateReqDto transactionModel)
     {
         var data = await _transactionRepository.AddTransactionAsync(transactionModel);
         return Ok(data);
