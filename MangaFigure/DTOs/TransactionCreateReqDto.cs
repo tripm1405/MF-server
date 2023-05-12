@@ -4,7 +4,7 @@
     {
         public int? Customer { get; set; }
         public string? Address { get; set; }
-
+        public int? Fee { get; set; }
         public List<ProductTransactionDto>? Products { get; set; }
     }
 }

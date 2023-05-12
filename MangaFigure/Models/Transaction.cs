@@ -21,6 +21,7 @@ namespace MangaFigure.Models
         public DateTime? CreateAt { get; set; }
         public int? Price { get; set; }
         public string? Address { get; set; }
+        public int? Fee { get; set; }
         public virtual Customer? CustomerNavigation { get; set; }
         public virtual Employee? EmployeeNavigation { get; set; }
         public virtual TransactionStatus? StatusNavigation { get; set; }

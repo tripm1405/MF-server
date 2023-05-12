@@ -156,6 +156,7 @@ CREATE TABLE [Transaction] (
 	[create_at] DATETIME DEFAULT GETDATE(),
 	[price] INT,
 	[address] NVARCHAR(256),
+	[fee] INT,
 
 	PRIMARY KEY ([id])
 )
@@ -758,16 +759,16 @@ INSERT INTO [TransactionStatus] ([content]) VALUES
 (N'Hủy')
 GO
 
-INSERT INTO [Transaction] ([customer], [employee],[status],[rate], [price], [address]) VALUES 
-(1,1,1,5, 230000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 1, Hồ Chí Minh'),
-(2,1,1,4, 220000, N'59 Pasteur, Phường Bến Nghé, Quận 1, Hồ Chí Minh'),
-(3,1,2,5, 210000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh'),
-(1,2,1,4, 120000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 1, Hồ Chí Minh'),
-(2,2,1,5, 231000, N'59 Pasteur, Phường Bến Nghé, Quận 1, Hồ Chí Minh'),
-(3,2,1,4, 343000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh'),
-(3,3,2,5, 123000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh'),
-(1,3,1,4, 212000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 1, Hồ Chí Minh'),
-(3,1,3,5, 134000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh')
+INSERT INTO [Transaction] ([customer], [employee],[status],[rate], [price], [address], [fee]) VALUES 
+(1,1,1,5, 230000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 1, Hồ Chí Minh', 12000),
+(2,1,1,4, 220000, N'59 Pasteur, Phường Bến Nghé, Quận 1, Hồ Chí Minh', 14000),
+(3,1,2,5, 210000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh', 12000),
+(1,2,1,4, 120000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 1, Hồ Chí Minh', 20000),
+(2,2,1,5, 231000, N'59 Pasteur, Phường Bến Nghé, Quận 1, Hồ Chí Minh', 20000),
+(3,2,1,4, 343000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh', 14000),
+(3,3,2,5, 123000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh', 16000),
+(1,3,1,4, 212000, N'328 Đường Võ Văn Kiệt, Phường Cô Giang, Quận 1, Hồ Chí Minh', 15000),
+(3,1,3,5, 134000, N'47 Đường Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh', 14000)
 GO
 
 INSERT INTO [TransactionDetail] ([transaction], [product], [amount], [price]) VALUES 
