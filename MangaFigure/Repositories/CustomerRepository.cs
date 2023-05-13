@@ -59,10 +59,6 @@ public class CustomerRepository
         customer.Email = customerModel.Email;
         customer.Birthday = customerModel.Birthday;
         customer.Phone = customerModel.Phone;
-        customer.Meta = customerModel.Meta;
-        customer.Order = customerModel.Order;
-        customer.CreateAt = customerModel.CreateAt;
-        customer.Active = customerModel.Active;
 
         _dbContext.Customers.Update(customer);
 
@@ -94,5 +90,23 @@ public class CustomerRepository
                    select customer;
 
         return await data.AsQueryable().AsNoTracking().ToListAsync();
+    }
+
+    public async Task<Customer> ChangePassword(int id, ChangePasswordDto body)
+    {
+        var customer = await _dbContext.Customers.FindAsync(id);
+        if (!BCrypt.Net.BCrypt.Verify(body.OldPassword, customer?.Password))
+        {
+            throw new Exception("Mật khẩu không khớp!");
+        }
+
+        if (customer != null)
+        {
+            customer.Password = BCrypt.Net.BCrypt.HashPassword(body.NewPassword);
+            _dbContext.Customers.Update(customer);
+
+            await _dbContext.SaveChangesAsync();
+        }
+        return customer;
     }
 }

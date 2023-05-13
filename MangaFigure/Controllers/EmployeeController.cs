@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
+using System.Security.Claims;
 
 namespace MangaFigure.Controllers;
 
@@ -35,10 +36,38 @@ public class EmployeeController : ControllerBase
         return Ok(data);
     }
 
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetEmployeeByIdAsync(int id)
+    {
+        var data = await _employeeRepository.GetEmployeeByIdAsync(id);
+        return Ok(data);
+    }
+
+    [HttpPost("change-password/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    public async Task<IActionResult> ChangePasswordAsync(int id, ChangePasswordDto body)
+    {
+        int userId = int.Parse(this.User.Claims.First(i => i.Type == "id").Value);
+
+        if (userId != id) {
+            throw new Exception("Lỗi!!!");
+        }
+        
+        var data = await _employeeRepository.ChangePassword(id, body);
+        return Ok(data);
+    }
+    
     [HttpPut("update/{id}")]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0, 1")]
     public async Task<IActionResult> UpdateEmployeeAsync(int id, [FromBody] EmployeeDto employeeModel)
     {
+        int userId = int.Parse(this.User.Claims.First(i => i.Type == "id").Value);
+        int userRole = int.Parse(this.User.Claims.First(i => i.Type == ClaimTypes.Role).Value);
+
+        if (userId != id && userRole != 0) {
+            throw new Exception("Lỗi!!!");
+        }
+        
         var data = await _employeeRepository.UpdateEmployeeAsync(id,employeeModel);
         return Ok(data);
     }
