@@ -15,7 +15,10 @@ public class EmployeeRepository
 
     public async Task<List<Employee>> GetEmployeeAsync()
     {
-        var data = await _dbContext.Employees.AsQueryable().AsNoTracking().ToListAsync();
+        var data = await _dbContext.Employees
+            .OrderByDescending(t => t.CreateAt)
+            .AsNoTracking()
+            .ToListAsync();
         return data;
     }
 
@@ -42,7 +45,10 @@ public class EmployeeRepository
     
     public async Task<Employee> GetEmployeeByIdAsync(int id)
     {
-        var data = await _dbContext.Employees.AsQueryable().Where(e => e.Id == id).AsNoTracking().FirstOrDefaultAsync();
+        var data = await _dbContext.Employees
+            .Where(e => e.Id == id)
+            .AsNoTracking()
+            .FirstOrDefaultAsync();
         return data;
     }
 
@@ -89,7 +95,10 @@ public class EmployeeRepository
                    orderby employee.CreateAt descending
                    select employee;
 
-        return await data.AsQueryable().AsNoTracking().ToListAsync();
+        return await data
+            .OrderByDescending(t => t.CreateAt)
+            .AsNoTracking()
+            .ToListAsync();
     }
     
     public async Task<Employee> ChangePassword(int id, ChangePasswordDto body)

@@ -32,7 +32,10 @@ public class AnnouncementRepository
                    };
 
         //var data = await _dbContext.Announcements.AsQueryable().AsNoTracking().ToListAsync();
-        return await data.AsQueryable().AsNoTracking().ToListAsync();
+        return await data
+            .OrderByDescending(t => t.CreateAt)
+            .AsNoTracking()
+            .ToListAsync();
     }
 
     public async Task<Announcement> GetAnnouncementWithMetaAsync(string meta)
@@ -51,13 +54,11 @@ public class AnnouncementRepository
             })
             .FirstOrDefaultAsync(t => t.Meta == meta);
 
-        //var data = await _dbContext.Announcements.AsQueryable().AsNoTracking().ToListAsync();
         return data;
     }
 
     public async Task<Announcement> AddAnnouncementAsync(AnnouncementDto announcementModel)
     {
-        Console.WriteLine(announcementModel.Image);
         var newAnnouncement = new Announcement()
         {
             Meta = Config.CreateMetaWithHash(announcementModel.Meta),
@@ -91,7 +92,8 @@ public class AnnouncementRepository
 
         _dbContext.Announcements.Update(announcement);
 
-        await _dbContext.SaveChangesAsync();
+        await _dbContext
+            .SaveChangesAsync();
         return announcement;
 
     }

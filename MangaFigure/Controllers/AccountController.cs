@@ -14,11 +14,10 @@ public class AccountController : ControllerBase
 
     public AccountController(AccountRepository Repository)
     {
-        _Repository = Repository;
+        _Repository = Repository; 
     }
     
     [HttpPost("sign-in")]
-    [AllowAnonymous]
     public async Task<IActionResult> PostSignInAsync([FromBody] AccountBody body)
     {
         var data = await _Repository.SignInAsync(body);
@@ -26,7 +25,6 @@ public class AccountController : ControllerBase
     }
 
     [HttpPost("check-token")]
-    [AllowAnonymous]
     public async Task<IActionResult> PostCheckTokenAsync(string token)
     {
         var data = await _Repository.CheckToken(token);

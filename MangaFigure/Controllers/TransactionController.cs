@@ -62,7 +62,7 @@ public class TransactionController : ControllerBase
         return Ok(data);
     }
 
-    [HttpPost("")]
+    [HttpPost]
     public async Task<IActionResult> GetEmployeeWithBodyAsync([FromBody] TransactionDto body)
     {
         var data = await _transactionRepository.GetTransactionsWithBodyAsync(body);

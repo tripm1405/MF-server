@@ -15,7 +15,10 @@ public class CustomerRepository
 
     public async Task<List<Customer>> GetCustomerAsync()
     {
-        var data = await _dbContext.Customers.AsQueryable().AsNoTracking().ToListAsync();
+        var data = await _dbContext.Customers
+            .OrderByDescending(t => t.CreateAt)
+            .AsNoTracking()
+            .ToListAsync();
         return data;
     }
     

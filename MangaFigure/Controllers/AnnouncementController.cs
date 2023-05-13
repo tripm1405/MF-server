@@ -20,7 +20,6 @@ public class AnnouncementController : ControllerBase
     }
 
     [HttpGet("list")]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> GetAnnouncementAsync()
     {
         var data = await _announcementRepository.GetAnnouncementAsync();

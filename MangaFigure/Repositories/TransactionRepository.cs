@@ -17,14 +17,16 @@ public class TransactionRepository
 
     public async Task<List<Transaction>> GetTransactionAsync()
     {
-        var data = await _dbContext.Transactions.AsQueryable().AsNoTracking().ToListAsync();
+        var data = await _dbContext.Transactions
+            .OrderByDescending(t => t.CreateAt)
+            .AsNoTracking()
+            .ToListAsync();
         return data;
     }
     
     public async Task<Transaction> GetTransactionByMetaAsync(int id)
     {
         var qb = _dbContext.Transactions
-            .AsQueryable()
             .Include(t => t.EmployeeNavigation)
             .Include(t => t.CustomerNavigation)
             .Include(e => e.TransactionDetails)
@@ -35,6 +37,29 @@ public class TransactionRepository
             .AsNoTracking().
             FirstOrDefaultAsync();
         return res;
+    }
+
+    public async Task<List<Transaction>> GetTransactionsWithBodyAsync(TransactionDto body)
+    {
+        IQueryable<Transaction> data = _dbContext.Transactions;
+
+        if (body.Customer != null)
+        {
+            data = data.Where(t => t.Customer == body.Customer);
+        }
+
+        if (body.Status != null)
+        {
+            data = data.Where(t => t.Status == body.Status);
+        }
+
+        return await data
+            .OrderByDescending(t => t.CreateAt)
+            .Include(t => t.CustomerNavigation)
+            .Include(t => t.EmployeeNavigation)
+            .Include(t => t.StatusNavigation)
+            .AsNoTracking()
+            .ToListAsync();
     }
 
     public async Task<Transaction> AddTransactionAsync(TransactionCreateReqDto body)
@@ -139,16 +164,6 @@ public class TransactionRepository
             transaction.Status = body.Status;
         }
 
-        //if (body.Employee != null) transaction.Employee = body.Employee;
-        //if (body.Rate != null) transaction.Rate = body.Rate;
-        //if (body.Status != null) transaction.Status = body.Status;
-        //if (body.Active != null) transaction.Active = body.Active;
-        //if (body.Order != null) transaction.Order = body.Order;
-        //if (body.Price != null) transaction.Price = body.Price;
-        //if (body.Address != null) transaction.Address = body.Address;
-        //if (body.Fee != null) transaction.Fee = body.Fee;
-
-
         _dbContext.Transactions.Update(transaction);
 
         await _dbContext.SaveChangesAsync();
@@ -170,50 +185,4 @@ public class TransactionRepository
         await _dbContext.SaveChangesAsync();
         return transaction;
     }
-
-    public async Task<List<Transaction>> GetTransactionsWithBodyAsync(TransactionDto body)
-    {
-        IQueryable<Transaction> data = _dbContext.Transactions;
-
-        if (body.Customer != null)
-        {
-            data = data.Where(t => t.Customer == body.Customer);
-        }
-
-        if (body.Status != null)
-        {
-            data = data.Where(t => t.Status == body.Status);
-        }
-
-        return await data
-            .Include(t => t.CustomerNavigation)
-            .Include(t => t.EmployeeNavigation)
-            .Include(t => t.StatusNavigation)
-            .AsQueryable()
-            .AsNoTracking()
-            .ToListAsync();
-    }
-
-    //public async Task<Transaction> GetTransactionWithIdAsync(int id)
-    //{
-    //    Transaction transaction = await _dbContext.Transactions.FirstOrDefaultAsync(t => t.Id == id);
-
-    //    if (transaction == null)
-    //    {
-    //        throw new Exception("Id khong khop");
-    //    }
-
-    //    var data = new
-    //    {
-    //        Id = transaction.Id,
-    //        Customer = await Pro,
-    //        Employee = transaction.Employee,
-
-    //    }
-
-    //    return ;
-
-    //    await _dbContext.SaveChangesAsync();
-    //    return transaction;
-    //}
 }

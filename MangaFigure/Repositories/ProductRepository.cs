@@ -140,7 +140,11 @@ public class ProductRepository
                     };
 
 
-        return await data.AsQueryable().AsNoTracking().ToListAsync();
+        return await data
+
+            .OrderByDescending(t => t.CreateAt)
+            .AsNoTracking()
+            .ToListAsync();
     }
 
     public async Task<List<ProductsWithImageSrcDto>> GetProductsWithBodyAsync(ProductBodyDto body)
@@ -182,7 +186,11 @@ public class ProductRepository
             data = data.Take((int) body.Take);
         }
 
-        return await data.AsQueryable().AsNoTracking().ToListAsync();
+        return await data
+            .OrderByDescending(t => t.CreateAt)
+            .AsQueryable()
+            .AsNoTracking()
+            .ToListAsync();
     }
 
     public async Task<ProductsWithImageSrcDto> GetProductAsync(string meta)
@@ -208,7 +216,9 @@ public class ProductRepository
                        SrcImg = Config.OUT_PRODUCTS + productImage.Link
                    };
 
-        return await data.AsQueryable().AsNoTracking().FirstOrDefaultAsync();
+        return await data
+            .AsNoTracking()
+            .FirstOrDefaultAsync();
     }
 
     public async Task<ProductPageData> GetProductPageAsync(ProductPageBodyDto body)
@@ -238,11 +248,11 @@ public class ProductRepository
                                   CreateAt = product.CreateAt,
                                   SrcImg = Config.OUT_PRODUCTS + productImage.Link
                               })
-                      .Skip((page - 1) * pageSize)
-                      .Take(pageSize)
-                      .AsQueryable()
-                      .AsNoTracking()
-                      .ToListAsync(),
+                              .Skip((page - 1) * pageSize)
+                              .Take(pageSize)
+                              .OrderByDescending(t => t.CreateAt)
+                              .AsNoTracking()
+                              .ToListAsync(),
             Pages = ((from product in _dbContext.Products select product).Count() / pageSize) + 1
         };
     }
