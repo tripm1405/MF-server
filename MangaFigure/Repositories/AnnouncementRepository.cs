@@ -21,6 +21,7 @@ public class AnnouncementRepository
         var data = from announcementModel in _dbContext.Announcements
                    select new Announcement()
                    {
+                       Id = announcementModel.Id,
                        Meta = announcementModel.Meta,
                        Title = announcementModel.Title,
                        Content = announcementModel.Content,
@@ -34,11 +35,32 @@ public class AnnouncementRepository
         return await data.AsQueryable().AsNoTracking().ToListAsync();
     }
 
+    public async Task<Announcement> GetAnnouncementWithMetaAsync(string meta)
+    {
+        var data = await _dbContext.Announcements
+            .Select(t => new Announcement()
+            {
+                Id = t.Id,
+                Meta = t.Meta,
+                Title = t.Title,
+                Content = t.Content,
+                Order = t.Order,
+                Active = t.Active,
+                CreateAt = t.CreateAt,
+                Image = Config.OUT_ANNOUNCES + t.Image
+            })
+            .FirstOrDefaultAsync(t => t.Meta == meta);
+
+        //var data = await _dbContext.Announcements.AsQueryable().AsNoTracking().ToListAsync();
+        return data;
+    }
+
     public async Task<Announcement> AddAnnouncementAsync(AnnouncementDto announcementModel)
     {
+        Console.WriteLine(announcementModel.Image);
         var newAnnouncement = new Announcement()
         {
-            Meta = announcementModel.Meta,
+            Meta = Config.CreateMetaWithHash(announcementModel.Meta),
             Title = announcementModel.Title,
             Content = announcementModel.Content,
             Order = announcementModel.Order,

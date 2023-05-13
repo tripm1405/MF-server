@@ -27,6 +27,14 @@ public class AnnouncementController : ControllerBase
         return Ok(data);
     }
 
+    [HttpGet("{meta}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    public async Task<IActionResult> GetAnnouncementWithIdAsync(string meta)
+    {
+        var data = await _announcementRepository.GetAnnouncementWithMetaAsync(meta);
+        return Ok(data);
+    }
+
     [HttpPost("create")]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewAnnouncementAsync([FromBody] AnnouncementDto announcementModel)

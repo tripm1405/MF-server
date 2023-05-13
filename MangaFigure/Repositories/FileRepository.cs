@@ -36,6 +36,17 @@ public class FileRepository
 
             return productImage;
         }
+        else if (table == "AnnounceImage")
+        {
+            var filePath = Path.Combine(Config.IN_ANNOUNCES, file.FileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            return file.FileName;
+        }
 
         string inPath = Config.IN_LOGOS;
 
