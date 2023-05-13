@@ -39,7 +39,7 @@ namespace MangaFigure.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.;Database=MangaFigure;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-200CPHE\\MSSQLSERVER01;Database=MangaFigure;Trusted_Connection=True;");
             }
         }
 

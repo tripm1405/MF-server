@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
+using System.Security.Claims;
 
 namespace MangaFigure.Controllers;
 
@@ -28,6 +29,7 @@ public class CustomerController : ControllerBase
     }
     
     [HttpGet("{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> GetCustomerByIdAsync(int id)
     {
         var data = await _customerRepository.GetCustomerByIdAsync(id);
@@ -41,13 +43,32 @@ public class CustomerController : ControllerBase
         var data = await _customerRepository.AddCustomerAsync(customerModel);
         return Ok(data);
     }
+    
+    [HttpPost("change-password/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    public async Task<IActionResult> ChangePasswordAsync(int id, ChangePasswordDto body)
+    {
+        int userId = int.Parse(this.User.Claims.First(i => i.Type == "id").Value);
+
+        if (userId != id) {
+            throw new Exception("Lỗi!!!");
+        }
+        
+        var data = await _customerRepository.ChangePassword(id, body);
+        return Ok(data);
+    }
 
     [HttpPut("update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> UpdateCustomerAsync(int id, [FromBody] CustomerDto customerModel)
     {
+        int userId = int.Parse(this.User.Claims.First(i => i.Type == "id").Value);
+
+        if (userId != id) {
+            throw new Exception("Lỗi!!!");
+        }
         var data = await _customerRepository.UpdateCustomerAsync(id,customerModel);
         return Ok(data);
-        return null;
     }
 
     [HttpDelete("remove/{id}")]

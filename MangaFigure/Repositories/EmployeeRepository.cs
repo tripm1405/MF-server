@@ -39,6 +39,12 @@ public class EmployeeRepository
         await _dbContext.SaveChangesAsync();
         return newEmployee;
     }
+    
+    public async Task<Employee> GetEmployeeByIdAsync(int id)
+    {
+        var data = await _dbContext.Employees.AsQueryable().Where(e => e.Id == id).AsNoTracking().FirstOrDefaultAsync();
+        return data;
+    }
 
     public async Task<Employee> UpdateEmployeeAsync(int employeeId, EmployeeDto employeeModel)
     {
@@ -49,15 +55,10 @@ public class EmployeeRepository
             throw new Exception($"Not found author with id: {employeeId}");
         }
         employee.Name = employeeModel.Name;
-        employee.Password = employeeModel.Password;
         employee.Address = employeeModel.Address;
         employee.Email = employeeModel.Email;
         employee.Birthday = employeeModel.Birthday;
         employee.Phone = employeeModel.Phone;
-        employee.Meta = employeeModel.Meta;
-        employee.Order = employeeModel.Order;
-        employee.CreateAt = employeeModel.CreateAt;
-        employee.Active = employeeModel.Active;
 
         _dbContext.Employees.Update(employee);
 
@@ -89,5 +90,23 @@ public class EmployeeRepository
                    select employee;
 
         return await data.AsQueryable().AsNoTracking().ToListAsync();
+    }
+    
+    public async Task<Employee> ChangePassword(int id, ChangePasswordDto body)
+    {
+        var employee = await _dbContext.Employees.FindAsync(id);
+        if (!BCrypt.Net.BCrypt.Verify(body.OldPassword, employee?.Password))
+        {
+            throw new Exception("Mật khẩu không khớp!");
+        }
+
+        if (employee != null)
+        {
+            employee.Password = BCrypt.Net.BCrypt.HashPassword(body.NewPassword);
+            _dbContext.Employees.Update(employee);
+
+            await _dbContext.SaveChangesAsync();
+        }
+        return employee;
     }
 }
