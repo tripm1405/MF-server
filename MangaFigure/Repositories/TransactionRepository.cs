@@ -104,14 +104,16 @@ public class TransactionRepository
             throw new Exception($"Not found author with id: {transactionId}");
         }
 
-        if (body.Employee != null) transaction.Employee = body.Employee;
-        if (body.Rate != null) transaction.Rate = body.Rate;
         if (body.Status != null) transaction.Status = body.Status;
-        if (body.Active != null) transaction.Active = body.Active;
-        if (body.Order != null) transaction.Order = body.Order;
-        if (body.Price != null) transaction.Price = body.Price;
-        if (body.Address != null) transaction.Address = body.Address;
-        if (body.Fee != null) transaction.Fee = body.Fee;
+
+        //if (body.Employee != null) transaction.Employee = body.Employee;
+        //if (body.Rate != null) transaction.Rate = body.Rate;
+        //if (body.Status != null) transaction.Status = body.Status;
+        //if (body.Active != null) transaction.Active = body.Active;
+        //if (body.Order != null) transaction.Order = body.Order;
+        //if (body.Price != null) transaction.Price = body.Price;
+        //if (body.Address != null) transaction.Address = body.Address;
+        //if (body.Fee != null) transaction.Fee = body.Fee;
 
 
         _dbContext.Transactions.Update(transaction);
