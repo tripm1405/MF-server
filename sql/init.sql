@@ -306,10 +306,10 @@ INSERT INTO [Admin] ([username], [password]) VALUES
 ('admin', '123456')
 GO
 
-INSERT INTO [Announcement] ([title], [content],[image]) VALUES 
-('Thong bao giam gia ngay 1/6', 'Thong bao giam gia ngay 1/6','1.jpg'),
-('Thong bao giam gia ngay 1/4', 'Thong bao giam gia ngay 1/4','1.jpg'),
-('Thong bao giam gia ngay 10/3 ', 'Thong bao giam gia ngay 10/3','1.jpg')
+INSERT INTO [Announcement] ([title], [content], [image], [meta]) VALUES 
+('Thong bao giam gia ngay 1/6', 'Thong bao giam gia ngay 1/6','1.jpg', 'Thong-ao-giam-gia-ngay-1/6'),
+('Thong bao giam gia ngay 1/4', 'Thong bao giam gia ngay 1/4','1.jpg', 'Thong-bao-giam-gia-ngay-1/4'),
+('Thong bao giam gia ngay 10/3', 'Thong bao giam gia ngay 10/3','1.jpg', 'Thong-bao-giam-gia-ngay-10/3')
 GO
 
 INSERT INTO [Employee] ([name], [username], [password], [email], [address], [phone], [birthday]) VALUES 
