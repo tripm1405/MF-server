@@ -187,7 +187,6 @@ public class ProductRepository
 
     public async Task<ProductsWithImageSrcDto> GetProductAsync(string meta)
     {
-
         var data = from product in _dbContext.Products
                    join productImage in _dbContext.ProductImages on product.Image equals productImage.Id
                    where product.Meta == meta

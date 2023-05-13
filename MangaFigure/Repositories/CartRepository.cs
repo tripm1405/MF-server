@@ -37,7 +37,7 @@ public class CartRepository
             .ToListAsync();
     }
 
-    public async Task<Cart> AddCartAsync(CartDto body)
+    public async Task<Cart> AddCartAsync(int userId, CartDto body)
     {
         var cart = await _dbContext.Carts
             .Where(t => t.Product == body.Product && t.Customer == body.Customer)
@@ -50,7 +50,7 @@ public class CartRepository
 
         var newCart = new Cart()
         {
-            Customer = body.Customer,
+            Customer = userId,
             Product = body.Product,
             Meta = body.Meta,
             Active = body.Active,

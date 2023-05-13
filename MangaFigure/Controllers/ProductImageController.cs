@@ -1,8 +1,11 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -31,11 +34,11 @@ public class ProductImageController : ControllerBase
             return BadRequest("No file selected.");
 
         var filePath = await _productImageRepository.UploadFileAsync(file);
-
         return Ok(new { file = filePath });
     }
 
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0, 1")]
     public async Task<IActionResult> AddNewProductImageAsync([FromBody] ProductImageDto productImageModel)
     {
         var data = await _productImageRepository.AddProductImageAsync(productImageModel);
@@ -43,6 +46,7 @@ public class ProductImageController : ControllerBase
     }
 
     [HttpPut("update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0, 1")]
     public async Task<IActionResult> UpdateProductImageAsync(int id, [FromBody] ProductImageDto productImageModel)
     {
         var data = await _productImageRepository.UpdateProductImageAsync(id,productImageModel);
@@ -50,6 +54,7 @@ public class ProductImageController : ControllerBase
     }
 
     [HttpDelete("remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0, 1")]
     public async Task<IActionResult> RemoveProductImageAsync(int id)
     {
         var data = await _productImageRepository.RemoveProductImageAsync(id);

@@ -1,6 +1,8 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,6 +20,7 @@ public class AnnouncementController : ControllerBase
     }
 
     [HttpGet("list")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> GetAnnouncementAsync()
     {
         var data = await _announcementRepository.GetAnnouncementAsync();
@@ -25,6 +28,7 @@ public class AnnouncementController : ControllerBase
     }
 
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewAnnouncementAsync([FromBody] AnnouncementDto announcementModel)
     {
         var data = await _announcementRepository.AddAnnouncementAsync(announcementModel);
@@ -32,6 +36,7 @@ public class AnnouncementController : ControllerBase
     }
 
     [HttpPut("update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> UpdateAnnouncementAsync(int id, [FromBody] AnnouncementDto announcementModel)
     {
         var data = await _announcementRepository.UpdateAnnouncementAsync(id,announcementModel);
@@ -39,6 +44,7 @@ public class AnnouncementController : ControllerBase
     }
 
     [HttpDelete("remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> RemoveAnnouncementAsync(int id)
     {
         var data = await _announcementRepository.RemoveAnnouncementAsync(id);

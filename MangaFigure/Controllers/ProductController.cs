@@ -1,8 +1,12 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
+using System.Security.Claims;
 
 namespace MangaFigure.Controllers;
 
@@ -38,7 +42,16 @@ public class ProductController : ControllerBase
         return Ok(data);
     }
 
+    [HttpGet("{meta}")]
+    public async Task<IActionResult> GetProductWithMeta(string meta)
+    {
+        var data = await _productRepository.GetProductAsync(meta);
+
+        return Ok(data);
+    }
+
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0, 1")]
     public async Task<IActionResult> AddNewProduct([FromBody] ProductDto body)
     {
         var data = await _productRepository.AddProductAsync(body);
@@ -46,17 +59,10 @@ public class ProductController : ControllerBase
     }
 
     [HttpPost("update/{meta}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0, 1")]
     public async Task<IActionResult> UpdateProduct(string meta, [FromBody] ProductDto body)
     {
         var data = await _productRepository.UpdateProductAsync(meta, body);
-        return Ok(data);
-    }
-
-    [HttpGet("{meta}")]
-    public async Task<IActionResult> GetProductWithMeta(string meta)
-    {
-        var data = await _productRepository.GetProductAsync(meta);
-
         return Ok(data);
     }
 

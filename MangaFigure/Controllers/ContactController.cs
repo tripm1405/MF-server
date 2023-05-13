@@ -1,8 +1,11 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -25,6 +28,7 @@ public class ContactController : ControllerBase
     }
 
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewContactAsync([FromBody] ContactDto contactModel)
     {
         var data = await _contactRepository.AddContactAsync(contactModel);
@@ -32,6 +36,7 @@ public class ContactController : ControllerBase
     }
 
     [HttpPut("update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> UpdateContactAsync(int id, [FromBody] ContactDto contactModel)
     {
         var data = await _contactRepository.UpdateContactAsync(id,contactModel);
@@ -39,6 +44,7 @@ public class ContactController : ControllerBase
     }
 
     [HttpDelete("remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> RemoveContactAsync(int id)
     {
         var data = await _contactRepository.RemoveContactAsync(id);

@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Security.Claims;
 
 namespace MangaFigure
 {
@@ -28,5 +29,11 @@ namespace MangaFigure
 
             return string.Join("-", strs);
         }
+    }
+
+    public class User
+    {
+        public int? Id { get; set; }
+        public int? Role { get; set; }
     }
 }

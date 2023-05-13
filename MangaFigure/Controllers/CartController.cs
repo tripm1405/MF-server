@@ -1,8 +1,11 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -32,9 +35,10 @@ public class CartController : ControllerBase
     }
 
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "2")]
     public async Task<IActionResult> AddNewCartAsync([FromBody] CartDto cartModel)
     {
-        var data = await _cartRepository.AddCartAsync(cartModel);
+        var data = await _cartRepository.AddCartAsync(int.Parse(User.Claims.First(i => i.Type == "id").Value), cartModel);
         return Ok(data);
     }
 
@@ -46,6 +50,7 @@ public class CartController : ControllerBase
     }
 
     [HttpDelete("remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "2")]
     public async Task<IActionResult> RemoveCartAsync(int id)
     {
         var data = await _cartRepository.RemoveCartAsync(id);

@@ -1,8 +1,11 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -34,6 +37,7 @@ public class CatalogController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> Create([FromBody] Catalog body)
     {
         var data = await _repository.Create(body);
@@ -42,6 +46,7 @@ public class CatalogController : ControllerBase
     }
 
     [HttpPost("{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> Update(int id, [FromBody] Catalog body)
     {
         var data = await _repository.Update(id, body);

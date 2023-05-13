@@ -1,8 +1,11 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -32,6 +35,7 @@ public class CustomerController : ControllerBase
     }
 
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewCustomerAsync([FromBody] CustomerDto customerModel)
     {
         var data = await _customerRepository.AddCustomerAsync(customerModel);

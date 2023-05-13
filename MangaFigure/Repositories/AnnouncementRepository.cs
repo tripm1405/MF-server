@@ -2,6 +2,7 @@
 using MangaFigure.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Security.Claims;
 
 namespace MangaFigure.Repositories;
 
@@ -88,5 +89,4 @@ public class AnnouncementRepository
         return Announcement;
 
     }
-
 }

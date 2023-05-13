@@ -1,8 +1,12 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
+using System.Security.Claims;
 
 namespace MangaFigure.Controllers;
 
@@ -32,6 +36,7 @@ public class TransactionController : ControllerBase
     }
 
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "2")]
     public async Task<IActionResult> AddNewTransactionAsync([FromBody] TransactionCreateReqDto transactionModel)
     {
         var data = await _transactionRepository.AddTransactionAsync(transactionModel);
@@ -39,9 +44,14 @@ public class TransactionController : ControllerBase
     }
 
     [HttpPut("update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> UpdateTransactionAsync(int id, [FromBody] TransactionDto transactionModel)
     {
-        var data = await _transactionRepository.UpdateTransactionAsync(id,transactionModel);
+
+        int userId = int.Parse(this.User.Claims.First(i => i.Type == "id").Value);
+        int userRole = int.Parse(this.User.Claims.First(i => i.Type == ClaimTypes.Role).Value);
+
+        var data = await _transactionRepository.UpdateTransactionAsync(userId, userRole, id, transactionModel);
         return Ok(data);
     }
 
@@ -58,12 +68,4 @@ public class TransactionController : ControllerBase
         var data = await _transactionRepository.GetTransactionsWithBodyAsync(body);
         return Ok(data);
     }
-
-
-    //[HttpGet("detail/{id}")]
-    //public async Task<IActionResult> GetEmployeeWithBodyAsync(int id)
-    //{
-    //    var data = await _transactionRepository.GetTransactionsWithBodyAsync(id);
-    //    return Ok(data);
-    //}
 }

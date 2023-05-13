@@ -1,8 +1,11 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -25,6 +28,7 @@ public class EmployeeController : ControllerBase
     }
 
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewEmployeeAsync([FromBody] EmployeeDto employeeModel)
     {
         var data = await _employeeRepository.AddEmployeeAsync(employeeModel);
@@ -32,6 +36,7 @@ public class EmployeeController : ControllerBase
     }
 
     [HttpPut("update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> UpdateEmployeeAsync(int id, [FromBody] EmployeeDto employeeModel)
     {
         var data = await _employeeRepository.UpdateEmployeeAsync(id,employeeModel);
@@ -39,6 +44,7 @@ public class EmployeeController : ControllerBase
     }
 
     [HttpDelete("remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> RemoveEmployeeAsync(int id)
     {
         var data = await _employeeRepository.RemoveEmployeeAsync(id);

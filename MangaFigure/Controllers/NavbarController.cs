@@ -1,7 +1,10 @@
 using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -20,10 +23,11 @@ public class NavbarController : ControllerBase
     public async Task<IActionResult> GetNavbarAuthor()
     {
         var data = await _navbarRepository.GetAllNavrbarsAsync();
-        return Ok(data); 
+        return Ok(data);
     }
     
     [HttpPost("create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewNavbar([FromBody] NavbarDto navbarModel)
     {
         var newNavbar = await _navbarRepository.AddNavbarAsync(navbarModel);

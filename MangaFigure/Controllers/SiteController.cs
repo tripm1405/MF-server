@@ -1,8 +1,11 @@
 ﻿using MangaFigure.DTOs;
 using MangaFigure.Models;
 using MangaFigure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 
 namespace MangaFigure.Controllers;
 
@@ -52,6 +55,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPost("header/create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewHeaderAsync([FromBody] HeaderDto headerModel)
     {
         var data = await _siteRepository.AddHeaderAsync(headerModel);
@@ -59,6 +63,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPut("header/update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> UpdateHeaderAsync(int id, [FromBody] HeaderDto headerModel)
     {
         var data = await _siteRepository.UpdateHeaderAsync(id, headerModel);
@@ -66,6 +71,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpDelete("header/remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> RemoveHeaderAsync(int id)
     {
         var data = await _siteRepository.RemoveHeaderAsync(id);
@@ -80,6 +86,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPost("slideShow/create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewSlideShowAsync([FromBody] SlideShowDto slideShowModel)
     {
         var data = await _siteRepository.AddSlideShowAsync(slideShowModel);
@@ -87,6 +94,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPut("slideShow/update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> UpdateSlideShowAsync(int id, [FromBody] SlideShowDto slideShowModel)
     {
         var data = await _siteRepository.UpdateSlideShowAsync(id, slideShowModel);
@@ -94,6 +102,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpDelete("slideShow/remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> RemoveSlideShowAsync(int id)
     {
         var data = await _siteRepository.RemoveSlideShowAsync(id);
@@ -115,6 +124,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPost("catalog/create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewCatalogAsync([FromBody] CatalogDto catalogModel)
     {
         var newCatalog = await _siteRepository.AddCatalogAsync(catalogModel);
@@ -122,6 +132,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPut("catalog/update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> UpdateCatalogAsync(int id, [FromBody] CatalogDto catalogModel)
     {
         var data = await _siteRepository.UpdateCatalogAsync(id, catalogModel);
@@ -129,6 +140,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpDelete("catalog/remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> RemoveCatalogAsync(int id)
     {
         var data = await _siteRepository.RemoveCatalogAsync(id);
@@ -143,6 +155,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPost("footer/create")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> AddNewFooterAsync([FromBody] FooterDto footerModel)
     {
         var newFooter = await _siteRepository.AddFooterAsync(footerModel);
@@ -150,6 +163,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpPut("footer/update/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> UpdateFooterAsync(int id, [FromBody] FooterDto footerModel)
     {
         var data = await _siteRepository.UpdateFooterAsync(id, footerModel);
@@ -157,6 +171,7 @@ public class SiteController : ControllerBase
     }
 
     [HttpDelete("footer/remove/{id}")]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0")]
     public async Task<IActionResult> RemoveFooterAsync(int id)
     {
         var data = await _siteRepository.RemoveFooterAsync(id);

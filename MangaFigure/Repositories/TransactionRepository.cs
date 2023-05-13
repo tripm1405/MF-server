@@ -25,6 +25,7 @@ public class TransactionRepository
     {
         var qb = _dbContext.Transactions
             .AsQueryable()
+            .Include(t => t.EmployeeNavigation)
             .Include(t => t.CustomerNavigation)
             .Include(e => e.TransactionDetails)
                 .ThenInclude(t => t.ProductNavigation)
@@ -95,8 +96,9 @@ public class TransactionRepository
         }
     }
 
-    public async Task<Transaction> UpdateTransactionAsync(int transactionId, TransactionDto body)
+    public async Task<Transaction> UpdateTransactionAsync(int userId, int userRole, int transactionId, TransactionDto body)
     {
+
         var transaction = await _dbContext.Transactions.FindAsync(transactionId);
 
         if (transaction == null)
@@ -104,7 +106,38 @@ public class TransactionRepository
             throw new Exception($"Not found author with id: {transactionId}");
         }
 
-        if (body.Status != null) transaction.Status = body.Status;
+        Console.WriteLine(1);
+        if (body.Status != null)
+        {
+            Console.WriteLine(2);
+            if (body.Status > 5 || body.Status <= transaction.Status)
+            {
+                Console.WriteLine(3);
+                throw new Exception();
+            }
+
+            if (userRole == 2)
+            {
+                Console.WriteLine(4);
+                if (body.Status != 5)
+                {
+                    Console.WriteLine(6);
+                    throw new Exception();
+                }
+            }
+            else
+            {
+                Console.WriteLine(7);
+                if (transaction.Status == 1)
+                {
+                    Console.WriteLine(8);
+                    transaction.Employee = userId;
+                }
+            }
+            Console.WriteLine(9);
+
+            transaction.Status = body.Status;
+        }
 
         //if (body.Employee != null) transaction.Employee = body.Employee;
         //if (body.Rate != null) transaction.Rate = body.Rate;
