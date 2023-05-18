@@ -27,7 +27,6 @@ public class AnnouncementController : ControllerBase
     }
 
     [HttpGet("{meta}")]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public async Task<IActionResult> GetAnnouncementWithIdAsync(string meta)
     {
         var data = await _announcementRepository.GetAnnouncementWithMetaAsync(meta);
