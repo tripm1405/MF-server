@@ -43,7 +43,7 @@ public class ProductRepository
         {
             var productImage = await _dbContext.ProductImages.FirstOrDefaultAsync(t => t.Id == newProduct.Image);
 
-            productImage.Product = Product.Id;
+            productImage.Product = newProduct.Id;
 
             _dbContext.ProductImages.Update(productImage);
 
@@ -257,21 +257,49 @@ public class ProductRepository
         };
     }
 
-    public async Task<Product> DelProductAsync(string meta)
+    public async Task<Product> DelProductAsync(int id)
     {
-        Product? product = await _dbContext.Products.FirstOrDefaultAsync(t => t.Meta == meta);
-
-        List<ProductImage> productImages = await _dbContext.ProductImages.Where(t => t.Product == product.Id).ToListAsync();
-
-        foreach(ProductImage productImage in productImages)
+        var image = await _dbContext.ProductImages.FirstOrDefaultAsync(t => t.Product == id);
+        try
         {
-            _dbContext.ProductImages.Remove(productImage);
+            Product? product = await _dbContext.Products.FirstOrDefaultAsync(t => t.Id == id);
+
+            if (product == null)
+            {
+                throw new Exception("Khong tim thay san pham");
+            }
+            
+            if (image != null)
+            {
+                image.Product = null;
+                _dbContext.ProductImages.Update(image);
+                await _dbContext.SaveChangesAsync();
+            }
+
+            List<ProductImage> productImages = await _dbContext.ProductImages.Where(t => t.Product == product.Id).ToListAsync();
+
+            foreach(ProductImage productImage in productImages)
+            {
+                _dbContext.ProductImages.Remove(productImage);
+                await _dbContext.SaveChangesAsync();
+            }
+
+            _dbContext.Products.Remove(product);
             await _dbContext.SaveChangesAsync();
+            
+            return product;
         }
+        catch (Exception err)
+        {
+            if (image != null)
+            {
+                image.Product = id;
+                _dbContext.ProductImages.Update(image);
+                await _dbContext.SaveChangesAsync();
+            }
 
-        _dbContext.Products.Remove(product);
-
-        return product;
+            throw err;
+        }
     }
 }
 

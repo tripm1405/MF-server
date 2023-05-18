@@ -66,10 +66,10 @@ public class ProductController : ControllerBase
         return Ok(data);
     }
 
-    [HttpDelete("{meta}")]
-    public async Task<IActionResult> DelProduct(string meta)
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DelProduct(int id)
     {
-        var data = await _productRepository.DelProductAsync(meta);
+        var data = await _productRepository.DelProductAsync(id);
 
         return Ok(data);
     }
