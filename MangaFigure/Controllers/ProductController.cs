@@ -50,6 +50,13 @@ public class ProductController : ControllerBase
         return Ok(data);
     }
 
+    [HttpPost("pagination")]
+    public async Task<IActionResult> GetWithPaginationAsync([FromBody] ProductPaginationRequest body)
+    {
+        var data = await _productRepository.GetWithPaginationAsync(body);
+        return Ok(data);
+    }
+
     [HttpPost("create")]
     [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme, Roles = "0, 1")]
     public async Task<IActionResult> AddNewProduct([FromBody] ProductDto body)

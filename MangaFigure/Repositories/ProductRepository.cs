@@ -52,6 +52,54 @@ public class ProductRepository
 
         return newProduct;
     }
+    
+    public async Task<ProductPaginationResponse> GetWithPaginationAsync(ProductPaginationRequest body)
+    {
+        var products = _dbContext.Products
+            .Include(t => t.CatalogNavigation)
+            .Include(t => t.ImageNavigation)
+            .AsQueryable();
+
+        if (body.Type != null)
+        {
+            products = products.Where(t => t.Type == body.Type);
+        }
+
+        if (body.CatalogMeta != null)
+        {
+            products = products.Where(t => t.CatalogNavigation.Meta == body.CatalogMeta);
+        }
+
+        return new ProductPaginationResponse()
+        {
+            Products = await products
+                .Select(product => new Product()
+                {
+                    Id = product.Id,
+                    Name = product.Name,
+                    Description = product.Description,
+                    Image = product.Image,
+                    Type = product.Type,
+                    Catalog = product.Catalog,
+                    Price = product.Price,
+                    Discount = product.Discount,
+                    Amount = product.Amount,
+                    Meta = product.Meta,
+                    Active = product.Active,
+                    Order = product.Order,
+                    CreateAt = product.CreateAt,
+                    ImageNavigation = new ProductImage()
+                    {
+                        Link = Config.OUT_PRODUCTS + product.ImageNavigation.Link,
+                    }
+                })
+                .Skip((body.Page - 1) * body.PageSize)
+                .Take(body.PageSize)
+                .AsNoTracking()
+                .ToListAsync(),
+            Total = await products.CountAsync()
+        };
+    }
 
     public async Task<Product> UpdateProductAsync(string meta, ProductDto Product)
     {
