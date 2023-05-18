@@ -232,7 +232,7 @@ GO
 CREATE TABLE [Announcement] (
 	[id] INT IDENTITY(1, 1),
 	[title] NVARCHAR(128),
-	[content] TEXT,
+	[content] NVARCHAR(MAX),
 	[image] VARCHAR(256),
 	[meta] VARCHAR(256),
 	[active] BIT DEFAULT 1,
@@ -307,9 +307,9 @@ INSERT INTO [Admin] ([username], [password]) VALUES
 GO
 
 INSERT INTO [Announcement] ([title], [content], [image], [meta]) VALUES 
-('Thong bao giam gia ngay 1/6', 'Thong bao giam gia ngay 1/6','1.jpg', 'Thong-ao-giam-gia-ngay-1/6'),
-('Thong bao giam gia ngay 1/4', 'Thong bao giam gia ngay 1/4','1.jpg', 'Thong-bao-giam-gia-ngay-1/4'),
-('Thong bao giam gia ngay 10/3', 'Thong bao giam gia ngay 10/3','1.jpg', 'Thong-bao-giam-gia-ngay-10/3')
+(N'Thông báo giảm giá ngày 1/6', N'Thông báo giảm giá ngày 1/6','1.jpg', 'Thong-ao-giam-gia-ngay-1/6'),
+(N'Thông báo giảm giá ngày 1/4', N'Thông báo giảm giá ngày 1/4','1.jpg', 'Thong-bao-giam-gia-ngay-1/4'),
+(N'Thông báo giảm giá ngày 10/3', N'Thông báo giảm giá ngày 10/3','1.jpg', 'Thong-bao-giam-gia-ngay-10/3')
 GO
 
 INSERT INTO [Employee] ([name], [username], [password], [email], [address], [phone], [birthday]) VALUES 
